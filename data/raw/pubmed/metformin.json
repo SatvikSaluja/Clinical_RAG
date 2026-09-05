@@ -1,0 +1,422 @@
+[
+  {
+    "document_id": "pmid_28770321",
+    "title": "Metformin: clinical use in type 2 diabetes.",
+    "authors": [
+      "Elizabeth Sanchez-Rangel",
+      "Silvio E Inzucchi"
+    ],
+    "year": 2017,
+    "source": "PubMed",
+    "pmid": "28770321",
+    "doi": "10.1007/s00125-017-4336-x",
+    "journal": "Diabetologia",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28770321/",
+    "text": "Metformin is one of the most popular oral glucose-lowering medications, widely considered to be the optimal initial therapy for patients with type 2 diabetes mellitus. Interestingly, there still remains controversy regarding the drug's precise mechanism of action, which is thought to involve a reduction in hepatic glucose production. It is now recommended as first-line treatment in various guidelines, including that of the EASD and ADA. Its favoured status lies in its efficacy, low cost, weight neutrality and good safety profile. Other benefits have also been described, including improvements in certain lipids, inflammatory markers, and a reduction in cardiovascular events, apparently independent from the drug's glucose-lowering effect. Data have emerged questioning the previous reluctance to use this agent in those with mild to moderate chronic kidney disease. Regulations guiding its use in patients with stable, modest renal dysfunction have, as a result, become more lenient in recent years. With no long-term studies comparing it against newer glucose-lowering drugs, some of which have more robust evidence for cardioprotection, metformin's established role as 'foundation therapy' in type 2 diabetes may justifiably be challenged.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_36187122",
+    "title": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: A systematic review, meta-analysis and meta-regression of randomized controlled trials.",
+    "authors": [
+      "Katarzyna Nabrdalik",
+      "Karolina Skonieczna-\u017bydecka",
+      "Krzysztof Irlik",
+      "Mirela Hendel",
+      "Hanna Kwiendacz",
+      "Igor \u0141oniewski",
+      "Kornelia Januszkiewicz",
+      "Janusz Gumprecht",
+      "Gregory Y H Lip"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "36187122",
+    "doi": "10.2337/DC15-0488",
+    "journal": "Frontiers in endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36187122/",
+    "text": "INTRODUCTION: Metformin is the first choice drug in the treatment of type 2 diabetes mellitus but its administration may be linked to gastrointestinal adverse events limiting its use.\nOBJECTIVES: The objective of this systematic review and meta-analysis was to assess the risk of gastrointestinal adverse events related to metformin use in patients with type 2 diabetes treated with metformin.\nMETHODS: PUB MED/CINAHL/Web of Science/Scopus were searched from database inception until 08.11.2020 for articles in English and randomized controlled trials related to patients with type 2 diabetes treated with metformin were included.\nRESULTS: From 5315 publications, we identified 199 potentially eligible full-text articles. Finally, 71 randomized controlled trials were included in the meta-analysis. In these studies, metformin use was associated with higher risk of abdominal pain, diarrhea and nausea comparing to control. The risks of abdominal pain and nausea were highest comparing to placebo. Bloating risk was only elevated when metformin treatment was compared to DPP4i.\nCONCLUSIONS: The risk of gastrointestinal adverse events such as abdominal pain, nausea and diarrhea is higher in type 2 diabetes patients treated with metformin compared to other antidiabetic drugs. There is a higher risk of bloating and diarrhea with metformin immediate-release than with metformin extended release formulation.\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021289975, identifier CRD42021289975.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_32897388",
+    "title": "Cellular and Molecular Mechanisms of Metformin Action.",
+    "authors": [
+      "Traci E LaMoia",
+      "Gerald I Shulman"
+    ],
+    "year": 2021,
+    "source": "PubMed",
+    "pmid": "32897388",
+    "doi": "10.1210/endrev/bnaa023",
+    "journal": "Endocrine reviews",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32897388/",
+    "text": "Metformin is a first-line therapy for the treatment of type 2 diabetes, due to its robust glucose-lowering effects, well-established safety profile, and relatively low cost. While metformin has been shown to have pleotropic effects on glucose metabolism, there is a general consensus that the major glucose-lowering effect in patients with type 2 diabetes is mostly mediated through inhibition of hepatic gluconeogenesis. However, despite decades of research, the mechanism by which metformin inhibits this process is still highly debated. A key reason for these discrepant effects is likely due to the inconsistency in dosage of metformin across studies. Widely studied mechanisms of action, such as complex I inhibition leading to AMPK activation, have only been observed in the context of supra-pharmacological (>1 mM) metformin concentrations, which do not occur in the clinical setting. Thus, these mechanisms have been challenged in recent years and new mechanisms have been proposed. Based on the observation that metformin alters cellular redox balance, a redox-dependent mechanism of action has been described by several groups. Recent studies have shown that clinically relevant (50-100 \u03bcM) concentrations of metformin inhibit hepatic gluconeogenesis in a substrate-selective manner both in vitro and in vivo, supporting a redox-dependent mechanism of metformin action. Here, we review the current literature regarding metformin's cellular and molecular mechanisms of action.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_39208454",
+    "title": "Treatment of Diabetes in Pregnancy With Metformin.",
+    "authors": [
+      "Christine Newman",
+      "Fidelma P Dunne"
+    ],
+    "year": 2024,
+    "source": "PubMed",
+    "pmid": "39208454",
+    "doi": "10.1002/jcp.27238",
+    "journal": "Obstetrics and gynecology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39208454/",
+    "text": "Metformin is a commonly used drug in the treatment of type 2 diabetes and has been used to treat gestational diabetes since the 1970s. In pregnancy, its proven benefits include reduced gestational weight gain and reduced fetal size; some studies have shown reduced risk of cesarean delivery and lower rates of hypertension. Metformin can reduce the need for insulin therapy but does not eliminate such need in many patients. Despite these benefits, metformin crosses the placenta and has been associated with increases in the risk of giving birth to small-for-gestational-age neonates in some studies of individuals with type 2 diabetes in pregnancy. In addition, higher body mass index (BMI) z-scores have been observed among exposed offspring in some of the long-term follow-up studies. Nevertheless, metformin's low cost, ease of administration, and global reach make it a reasonable intervention in a population affected by rising rates of obesity and diabetes in pregnancy. Further follow-up studies are required to monitor the long-term health of exposed offspring.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_28530702",
+    "title": "Metformin alters the gut microbiome of individuals with treatment-naive type 2 diabetes, contributing to the therapeutic effects of the drug.",
+    "authors": [
+      "Hao Wu",
+      "Eduardo Esteve",
+      "Valentina Tremaroli",
+      "Muhammad Tanweer Khan",
+      "Robert Caesar",
+      "Louise Manner\u00e5s-Holm",
+      "Marcus St\u00e5hlman",
+      "Lisa M Olsson",
+      "Matteo Serino",
+      "Merc\u00e8 Planas-F\u00e8lix",
+      "Gemma Xifra",
+      "Josep M Mercader",
+      "David Torrents",
+      "R\u00e9my Burcelin",
+      "Wifredo Ricart",
+      "Rosie Perkins",
+      "Jos\u00e9 Manuel Fern\u00e0ndez-Real",
+      "Fredrik B\u00e4ckhed"
+    ],
+    "year": 2017,
+    "source": "PubMed",
+    "pmid": "28530702",
+    "doi": "10.1038/nm.4345",
+    "journal": "Nature medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28530702/",
+    "text": "Metformin is widely used in the treatment of type 2 diabetes (T2D), but its mechanism of action is poorly defined. Recent evidence implicates the gut microbiota as a site of metformin action. In a double-blind study, we randomized individuals with treatment-naive T2D to placebo or metformin for 4 months and showed that metformin had strong effects on the gut microbiome. These results were verified in a subset of the placebo group that switched to metformin 6 months after the start of the trial. Transfer of fecal samples (obtained before and 4 months after treatment) from metformin-treated donors to germ-free mice showed that glucose tolerance was improved in mice that received metformin-altered microbiota. By directly investigating metformin-microbiota interactions in a gut simulator, we showed that metformin affected pathways with common biological functions in species from two different phyla, and many of the metformin-regulated genes in these species encoded metalloproteins or metal transporters. Our findings provide support for the notion that altered gut microbiota mediates some of metformin's antidiabetic effects.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_30874963",
+    "title": "Metformin: Mechanisms in Human Obesity and Weight Loss.",
+    "authors": [
+      "Armen Yerevanian",
+      "Alexander A Soukas"
+    ],
+    "year": 2019,
+    "source": "PubMed",
+    "pmid": "30874963",
+    "doi": "10.1007/s13679-019-00335-3",
+    "journal": "Current obesity reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30874963/",
+    "text": "PURPOSE OF REVIEW: Metformin has multiple benefits for health beyond its anti-hyperglycemic properties. The purpose of this manuscript is to review the mechanisms that underlie metformin's effects on obesity.\nRECENT FINDINGS: Metformin is a first-line therapy for type 2 diabetes. Large cohort studies have shown weight loss benefits associated with metformin therapy. Metabolic consequences were traditionally thought to underlie this effect, including reduction in hepatic gluconeogenesis and reduction in insulin production. Emerging evidence suggests that metformin-associated weight loss is due to modulation of hypothalamic appetite regulatory centers, alteration in the gut microbiome, and reversal of consequences of aging. Metformin is also being explored in the management of obesity's sequelae such as hepatic steatosis, obstructive sleep apnea, and osteoarthritis. Multiple mechanisms underlie the weight loss-inducing and health-promoting effects of metformin. Further exploration of these pathways may be important in identifying new pharmacologic targets for obesity and other aging-associated metabolic diseases.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_25456737",
+    "title": "Metformin: from mechanisms of action to therapies.",
+    "authors": [
+      "Marc Foretz",
+      "Bruno Guigas",
+      "Luc Bertrand",
+      "Michael Pollak",
+      "Benoit Viollet"
+    ],
+    "year": 2014,
+    "source": "PubMed",
+    "pmid": "25456737",
+    "doi": "10.1016/j.cmet.2014.09.018",
+    "journal": "Cell metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25456737/",
+    "text": "Metformin is currently the first-line drug treatment for type 2 diabetes. Besides its glucose-lowering effect, there is interest in actions of the drug of potential relevance to cardiovascular diseases and cancer. However, the underlying mechanisms of action remain elusive. Convincing data place energy metabolism at the center of metformin's mechanism of action in diabetes and may also be of importance in cardiovascular diseases and cancer. Metformin-induced activation of the energy-sensor AMPK is well documented, but may not account for all actions of the drug. Here, we summarize current knowledge about the different AMPK-dependent and AMPK-independent mechanisms underlying metformin action.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_38763510",
+    "title": "Efficacy and Safety of Metformin and Atorvastatin Combination Therapy vs. Monotherapy with Either Drug in Type 2 Diabetes Mellitus and Dyslipidemia Patients (ATOMIC): Double-Blinded Randomized Controlled Trial.",
+    "authors": [
+      "Jie-Eun Lee",
+      "Seung Hee Yu",
+      "Sung Rae Kim",
+      "Kyu Jeung Ahn",
+      "Kee-Ho Song",
+      "In-Kyu Lee",
+      "Ho-Sang Shon",
+      "In Joo Kim",
+      "Soo Lim",
+      "Doo-Man Kim",
+      "Choon Hee Chung",
+      "Won-Young Lee",
+      "Soon Hee Lee",
+      "Dong Joon Kim",
+      "Sung-Rae Cho",
+      "Chang Hee Jung",
+      "Hyun Jeong Jeon",
+      "Seung-Hwan Lee",
+      "Keun-Young Park",
+      "Sang Youl Rhee",
+      "Sin Gon Kim",
+      "Seok O Park",
+      "Dae Jung Kim",
+      "Byung Joon Kim",
+      "Sang Ah Lee",
+      "Yong-Hyun Kim",
+      "Kyung-Soo Kim",
+      "Ji A Seo",
+      "Il Seong Nam-Goong",
+      "Chang Won Lee",
+      "Duk Kyu Kim",
+      "Sang Wook Kim",
+      "Chung Gu Cho",
+      "Jung Han Kim",
+      "Yeo-Joo Kim",
+      "Jae-Myung Yoo",
+      "Kyung Wan Min",
+      "Moon-Kyu Lee"
+    ],
+    "year": 2024,
+    "source": "PubMed",
+    "pmid": "38763510",
+    "doi": "10.4093/dmj.2023.0077",
+    "journal": "Diabetes & metabolism journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38763510/",
+    "text": "BACKGRUOUND: It is well known that a large number of patients with diabetes also have dyslipidemia, which significantly increases the risk of cardiovascular disease (CVD). This study aimed to evaluate the efficacy and safety of combination drugs consisting of metformin and atorvastatin, widely used as therapeutic agents for diabetes and dyslipidemia.\nMETHODS: This randomized, double-blind, placebo-controlled, parallel-group and phase III multicenter study included adults with glycosylated hemoglobin (HbA1c) levels >7.0% and <10.0%, low-density lipoprotein cholesterol (LDL-C) >100 and <250 mg/dL. One hundred eighty-five eligible subjects were randomized to the combination group (metformin+atorvastatin), metformin group (metformin+atorvastatin placebo), and atorvastatin group (atorvastatin+metformin placebo). The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end of the treatment.\nRESULTS: After 16 weeks of treatment compared to baseline, HbA1c showed a significant difference of 0.94% compared to the atorvastatin group in the combination group (0.35% vs. -0.58%, respectively; P<0.0001), whereas the proportion of patients with increased HbA1c was also 62% and 15%, respectively, showing a significant difference (P<0.001). The combination group also showed a significant decrease in LDL-C levels compared to the metformin group (-55.20% vs. -7.69%, P<0.001) without previously unknown adverse drug events.\nCONCLUSION: The addition of atorvastatin to metformin improved HbA1c and LDL-C levels to a significant extent compared to metformin or atorvastatin alone in diabetes and dyslipidemia patients. This study also suggested metformin's preventive effect on the glucose-elevating potential of atorvastatin in patients with type 2 diabetes mellitus and dyslipidemia, insufficiently controlled with exercise and diet. Metformin and atorvastatin combination might be an effective treatment in reducing the CVD risk in patients with both diabetes and dyslipidemia because of its lowering effect on LDL-C and glucose.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_37397787",
+    "title": "Metformin: A Review of Potential Mechanism and Therapeutic Utility Beyond Diabetes.",
+    "authors": [
+      "Siddhartha Dutta",
+      "Rima B Shah",
+      "Shubha Singhal",
+      "Sudeshna Banerjee Dutta",
+      "Sumit Bansal",
+      "Susmita Sinha",
+      "Mainul Haque"
+    ],
+    "year": 2023,
+    "source": "PubMed",
+    "pmid": "37397787",
+    "doi": "10.1038/s41591-018-0125-4",
+    "journal": "Drug design, development and therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37397787/",
+    "text": "Metformin has been designated as one of the most crucial first-line therapeutic agents in the management of type 2 diabetes mellitus. Primarily being an antihyperglycemic agent, metformin also has a plethora of pleiotropic effects on various systems and processes. It acts majorly by activating AMPK (Adenosine Monophosphate-Activated Protein Kinase) in the cells and reducing glucose output from the liver. It also decreases advanced glycation end products and reactive oxygen species production in the endothelium apart from regulating the glucose and lipid metabolism in the cardiomyocytes, hence minimizing the cardiovascular risks. Its anticancer, antiproliferative and apoptosis-inducing effects on malignant cells might prove instrumental in the malignancy of organs like the breast, kidney, brain, ovary, lung, and endometrium. Preclinical studies have also shown some evidence of metformin's neuroprotective role in Parkinson's disease, Alzheimer's disease, multiple sclerosis and Huntington's disease. Metformin exerts its pleiotropic effects through varied pathways of intracellular signalling and exact mechanism in the majority of them remains yet to be clearly defined. This article has extensively reviewed the therapeutic benefits of metformin and the details of its mechanism for a molecule of boon in various conditions like diabetes, prediabetes, obesity, polycystic ovarian disease, metabolic derangement in HIV, various cancers and aging.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_28776081",
+    "title": "Metformin: historical overview.",
+    "authors": [
+      "Clifford J Bailey"
+    ],
+    "year": 2017,
+    "source": "PubMed",
+    "pmid": "28776081",
+    "doi": "10.1007/s00125-017-4318-z",
+    "journal": "Diabetologia",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28776081/",
+    "text": "Metformin (dimethylbiguanide) has become the preferred first-line oral blood glucose-lowering agent to manage type 2 diabetes. Its history is linked to Galega officinalis (also known as goat's rue), a traditional herbal medicine in Europe, found to be rich in guanidine, which, in 1918, was shown to lower blood glucose. Guanidine derivatives, including metformin, were synthesised and some (not metformin) were used to treat diabetes in the 1920s and 1930s but were discontinued due to toxicity and the increased availability of insulin. Metformin was rediscovered in the search for antimalarial agents in the 1940s and, during clinical tests, proved useful to treat influenza when it sometimes lowered blood glucose. This property was pursued by the French physician Jean Sterne, who first reported the use of metformin to treat diabetes in 1957. However, metformin received limited attention as it was less potent than other glucose-lowering biguanides (phenformin and buformin), which were generally discontinued in the late 1970s due to high risk of lactic acidosis. Metformin's future was precarious, its reputation tarnished by association with other biguanides despite evident differences. The ability of metformin to counter insulin resistance and address adult-onset hyperglycaemia without weight gain or increased risk of hypoglycaemia gradually gathered credence in Europe, and after intensive scrutiny metformin was introduced into the USA in 1995. Long-term cardiovascular benefits of metformin were identified by the UK Prospective Diabetes Study (UKPDS) in 1998, providing a new rationale to adopt metformin as initial therapy to manage hyperglycaemia in type 2 diabetes. Sixty years after its introduction in diabetes treatment, metformin has become the most prescribed glucose-lowering medicine worldwide with the potential for further therapeutic applications.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_37167532",
+    "title": "Impact of metformin treatment on cobalamin status in persons with type 2 diabetes.",
+    "authors": [
+      "Sundus Fituri",
+      "Zoha Akbar",
+      "Vijay Ganji"
+    ],
+    "year": 2024,
+    "source": "PubMed",
+    "pmid": "37167532",
+    "doi": "10.1108/nfs-11-2021-0344",
+    "journal": "Nutrition reviews",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37167532/",
+    "text": "Over the last decades, low vitamin\u2009B12 status has been reported in individuals with type 2 diabetes mellitus (T2DM). Metformin, the first-line therapy for lowering blood glucose, is the main driving factor behind this association. Although the relationship between vitamin\u2009B12 deficiency and metformin is well established, results of studies on the exact effect of the dose and duration of the therapy remain inconsistent. Additionally, a lack of consensus on the definition of vitamin\u2009B12 deficiency adds to the conflicting literature. The objectives of this review were to analyze and synthesize the findings on the effects of metformin dose and duration on vitamin\u2009B12 status in patients with T2DM and to outline the potential mechanisms underlying metformin's effect on vitamin\u2009B12. Metformin therapy has adversely affected serum vitamin\u2009B12 concentrations, a marker of vitamin\u2009B12 status. The metformin usage index (a composite score of metformin dose and duration) might serve as a potential risk assessment tool for vitamin B12 screening in patients with T2DM. Considering the health implications of suboptimal vitamin\u2009B12 status, vitamin\u2009B12 concentrations should be monitored periodically in high-risk patients, such as vegans who are receiving metformin therapy for T2DM. Additionally, it is prudent to implement lifestyle strategies concurrent with metformin therapy in individuals with T2DM, promoting an overall synergistic effect on their glycemic control.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_35640743",
+    "title": "Metformin: Is it a drug for all reasons and diseases?",
+    "authors": [
+      "Chris R Triggle",
+      "Ibrahim Mohammed",
+      "Khalifa Bshesh",
+      "Isra Marei",
+      "Kevin Ye",
+      "Hong Ding",
+      "Ross MacDonald",
+      "Morley D Hollenberg",
+      "Michael A Hill"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "35640743",
+    "doi": "10.1016/j.metabol.2022.155223",
+    "journal": "Metabolism: clinical and experimental",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35640743/",
+    "text": "Metformin was first used to treat type 2 diabetes in the late 1950s and in 2022 remains the first-choice drug used daily by approximately 150 million people. An accumulation of positive pre-clinical and clinical data has stimulated interest in re-purposing metformin to treat a variety of diseases including COVID-19. In polycystic ovary syndrome metformin improves insulin sensitivity. In type 1 diabetes metformin may help reduce the insulin dose. Meta-analysis and data from pre-clinical and clinical studies link metformin to a reduction in the incidence of cancer. Clinical trials, including MILES (Metformin In Longevity Study), and TAME (Targeting Aging with Metformin), have been designed to determine if metformin can offset aging and extend lifespan. Pre-clinical and clinical data suggest that metformin, via suppression of pro-inflammatory pathways, protection of mitochondria and vascular function, and direct actions on neuronal stem cells, may protect against neurodegenerative diseases. Metformin has also been studied for its anti-bacterial, -viral, -malaria efficacy. Collectively, these data raise the question: Is metformin a drug for all diseases? It remains unclear as to whether all of these putative beneficial effects are secondary to its actions as an anti-hyperglycemic and insulin-sensitizing drug, or result from other cellular actions, including inhibition of mTOR (mammalian target for rapamycin), or direct anti-viral actions. Clarification is also sought as to whether data from ex vivo studies based on the use of high concentrations of metformin can be translated into clinical benefits, or whether they reflect a 'Paracelsus' effect. The environmental impact of metformin, a drug with no known metabolites, is another emerging issue that has been linked to endocrine disruption in fish, and extensive use in T2D has also raised concerns over effects on human reproduction. The objectives for this review are to: 1) evaluate the putative mechanism(s) of action of metformin; 2) analyze the controversial evidence for metformin's effectiveness in the treatment of diseases other than type 2 diabetes; 3) assess the reproducibility of the data, and finally 4) reach an informed conclusion as to whether metformin is a drug for all diseases and reasons. We conclude that the primary clinical benefits of metformin result from its insulin-sensitizing and antihyperglycaemic effects that secondarily contribute to a reduced risk of a number of diseases and thereby enhancing healthspan. However, benefits like improving vascular endothelial function that are independent of effects on glucose homeostasis add to metformin's therapeutic actions.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_24393785",
+    "title": "Metformin--mode of action and clinical implications for diabetes and cancer.",
+    "authors": [
+      "Ida Pernicova",
+      "M\u00e1rta Korbonits"
+    ],
+    "year": 2014,
+    "source": "PubMed",
+    "pmid": "24393785",
+    "doi": "10.1038/nrendo.2013.256",
+    "journal": "Nature reviews. Endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24393785/",
+    "text": "Metformin has been the mainstay of therapy for diabetes mellitus for many years; however, the mechanistic aspects of metformin action remained ill-defined. Recent advances revealed that this drug, in addition to its glucose-lowering action, might be promising for specifically targeting metabolic differences between normal and abnormal metabolic signalling. The knowledge gained from dissecting the principal mechanisms by which metformin works can help us to develop novel treatments. The centre of metformin's mechanism of action is the alteration of the energy metabolism of the cell. Metformin exerts its prevailing, glucose-lowering effect by inhibiting hepatic gluconeogenesis and opposing the action of glucagon. The inhibition of mitochondrial complex I results in defective cAMP and protein kinase A signalling in response to glucagon. Stimulation of 5'-AMP-activated protein kinase, although dispensable for the glucose-lowering effect of metformin, confers insulin sensitivity, mainly by modulating lipid metabolism. Metformin might influence tumourigenesis, both indirectly, through the systemic reduction of insulin levels, and directly, via the induction of energetic stress; however, these effects require further investigation. Here, we discuss the updated understanding of the antigluconeogenic action of metformin in the liver and the implications of the discoveries of metformin targets for the treatment of diabetes mellitus and cancer.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_40828352",
+    "title": "Efficacy and Safety of Triple Fixed Dose Combination of Dapagliflozin\u2009+\u2009Sitagliptin\u2009+\u2009Metformin IR in Indian Patients with Type 2 Diabetes Mellitus: A Randomized, Phase 3 Study in Comparison with Dual FDC Sitagliptin\u2009+\u2009Metformin IR.",
+    "authors": [
+      "Mahendra Pal Singh",
+      "Sandeep Gupta",
+      "Manish Singh",
+      "C Ambrish",
+      "Prakash Kurmi",
+      "Dinesh Kumar Gangwani",
+      "J Naganna",
+      "Ravikumar Sethuraman",
+      "Vrindavani Dhumal",
+      "Sapan Behera",
+      "Piyush M Patel",
+      "Dipak M Patil",
+      "Lalit K Lakhwani",
+      "Pravin S Ghadge",
+      "Suyog C Mehta",
+      "Sadhna J Joglekar"
+    ],
+    "year": 2025,
+    "source": "PubMed",
+    "pmid": "40828352",
+    "doi": "10.4158/EP14489.OR",
+    "journal": "Advances in therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40828352/",
+    "text": "INTRODUCTION: This study aims to evaluate the efficacy and safety of a triple fixed-dose combination (FDC) of dapagliflozin, sitagliptin, and immediate-release metformin (DAPA\u2009+\u2009SITA\u2009+\u2009MET IR) compared to dual FDCs in patients with type 2 diabetes mellitus (T2DM).\nMETHODS: This Phase 3, randomized, open-label study included eligible patients with T2DM who were randomly assigned in a 1:1 ratio to receive either a triple FDC of DAPA\u2009+\u2009SITA\u2009+\u2009MET IR (5\u2009+\u200950\u2009+\u2009500/1000\u00a0mg) or a dual FDC of sitagliptin and MET IR (SITA\u2009+\u2009MET IR; 50\u2009+\u2009500/1000\u00a0mg), administered twice daily for 16\u00a0weeks. The primary endpoint was the mean change in glycated haemoglobin (HbA1c) from baseline to Week 16.\nRESULTS: The mean baseline HbA1c was\u2009~\u20099% in both arms. Adjusted mean reduction in HbA1c from baseline to Week 16 was significantly greater in triple FDC of DAPA\u2009+\u2009SITA\u2009+\u2009MET IR (-\u20092.08%) versus dual FDC of SITA\u2009+\u2009MET IR \u2009(-\u20091.38%) P\u2009<\u20090.0001. A significantly greater reduction in HbA1c was observed with triple FDC compared to the dual FDC at Week 12 (P\u2009<\u20090.0001). At Week 16, a significantly higher proportion of patients achieved HbA1c\u2009<\u20097% with triple FDC than with dual FDC (48.9% versus 31.1%; P\u2009=\u20090.0029). Both treatments were well tolerated.\nCONCLUSION: Triple FDC of DAPA\u2009+\u2009SITA\u2009+\u2009MET IR demonstrated superior efficacy in achieving glycaemic control in patients with T2DM compared to dual FDC. There were no major safety concerns.\nCLINICAL TRIAL REGISTRATION NUMBER: CTRI/2022/04/041817.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_9209206",
+    "title": "An overview of metformin in the treatment of type 2 diabetes mellitus.",
+    "authors": [
+      "M B Davidson",
+      "A L Peters"
+    ],
+    "year": 1997,
+    "source": "PubMed",
+    "pmid": "9209206",
+    "doi": "10.1016/s0002-9343(96)00353-1",
+    "journal": "The American journal of medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9209206/",
+    "text": "Type 2 diabetes mellitus results from impaired insulin secretion and reduced peripheral insulin sensitivity. Treatment options include diet, oral antihyperglycemic agents, and insulin. Metformin, an oral biguanide, ameliorates hyperglycemia by improving peripheral sensitivity to insulin, and reducing gastrointestinal glucose absorption and hepatic glucose production. Unlike sulfonylureas, it does not stimulate insulin secretion, aggravate hyperinsulinemia, or cause hypoglycemia or weight gain (weight stabilizes or decreases). It also has beneficial effects on serum lipid profiles. In lean or overweight type 2 diabetic patients uncontrolled by diet, metformin monotherapy significantly improves glycemic control, compared with placebo, and to similar extents as sulfonylurea monotherapy. In secondary sulfonylurea failure, combination metformin-sulfonylurea treatment significantly improves glycemic control beyond that achieved with either agent along. Metformin-sulfonylurea also appears to be as effective as insulin or insulin plus sulfonylurea, suggesting that such combination therapy may obviate or substantially delay insulin therapy. Limited data suggest that metformin-insulin therapy may improve glycemic control, possibly reducing insulin requirements, in type 2 diabetic patients uncontrolled by insulin alone following secondary sulfonylurea failure. Gastrointestinal side effects are common, but usually tolerated. Lactic acidosis risk is minimal, provided that contraindications, particularly renal impairment, and prescribing guidelines are respected. Aside from elevated plasma metformin levels with cimetidine and synergistic hypoglycemia with sulfonylureas, few interactions occur. Thus, metformin is safe and effective both as monotherapy or in combination with other antihyperglycemic agents in type 2 diabetic patients requiring additional glycemic control and may be advantageous when weight control is desirable and/or hyperlipidemia exists.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_36704100",
+    "title": "Fecal microbiota transplantation reverses insulin resistance in type 2 diabetes: A randomized, controlled, prospective study.",
+    "authors": [
+      "Zezhen Wu",
+      "Bangzhou Zhang",
+      "Fengwu Chen",
+      "Rongmu Xia",
+      "Dan Zhu",
+      "Baolong Chen",
+      "Aiqiang Lin",
+      "Chuyan Zheng",
+      "Ducheng Hou",
+      "Xiaoyu Li",
+      "Shuo Zhang",
+      "Yongsong Chen",
+      "Kaijian Hou"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "36704100",
+    "doi": "10.1126/science.aao5774",
+    "journal": "Frontiers in cellular and infection microbiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36704100/",
+    "text": "OBJECTIVES: Recent studies have shown that fecal microbiota transplantation (FMT) improved the metabolic profiles of patients with type 2 diabetes mellitus (T2DM), yet the effectiveness in reversing insulin resistance and increasing metformin sensitivity in T2DM patients have not been reported. In this study, we evaluated the improvements of T2DM patients and their gut microbiota by FMT alone and FMT plus metformin.\nMETHODS: A total of 31 patients with newly diagnosed T2DM were randomized to intervention by metformin, FMT, or FMT plus metformin in the study. Patients were followed up at baseline and week 4 after treatment. Blood and stool samples were collected and subject to analyze clinical parameters and microbial communities by metagenomic sequencing, respectively.\nRESULTS: FMT alone and FMT plus metformin significantly improved the clinical indicators HOMA-IR and BMI in T2DM, besides fasting blood glucose, postprandial blood glucose, and hemoglobin A1c that were also controlled by metformin. Donor microbiota effectively colonized in T2DM with slightly higher colonization ration in FMT than FMT plus metformin within 4 weeks, resulting in increased microbial diversity and community changes from baseline after treatment. A total of 227 species and 441 species were significantly alerted after FMT and FMT plus metformin, respectively. FMT were significantly associated with the clinical parameters. Among them, Chlorobium phaeovibrioides, Bifidibacterium adolescentis and Synechococcus sp.WH8103 were potential due to their significantly negative correlations with HOMA-IR.\nCONCLUSIONS: FMT with or without metformin significantly improve insulin resistance and body mass index and gut microbial communities of T2DM patients by colonization of donor-derived microbiota.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_30068236",
+    "title": "The safety of empagliflozin plus metformin for the treatment of type 2 diabetes.",
+    "authors": [
+      "Andr\u00e9 J Scheen"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "30068236",
+    "doi": "10.1080/14740338.2018.1497159",
+    "journal": "Expert opinion on drug safety",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30068236/",
+    "text": "Metformin is the first-line glucose-lowering medication in type 2 diabetes mellitus (T2DM), but it generally requires soon or later the addition of a second-line therapy, among which a sodium-glucose cotransporter type 2 (SGLT-2) inhibitor, to reach and maintain adequate glucose control. Areas covered: This narrative review provides an analysis of both efficacy and safety of a dual therapy combining metformin and empagliflozin, a SGLT-2 inhibitor that has proven its' potential to reduce major cardiovascular (CV) events, mortality, and renal outcomes in patients with T2DM and established CV disease. Pharmacokinetic studies showed the absence of drug-drug interactions and demonstrate bioequivalence between fixed-dose combination (FDC) and individual tablets of empagliflozin and metformin. Focus will be put on the use of this dual therapy in special populations. Expert opinion: The addition of empagliflozin to metformin therapy improves glucose control, with a minimal risk of hypoglycemia, while reducing body weight and arterial blood pressure. EMPA-REG OUTCOME showed that this combined therapy may be used in patients with established CV disease or heart failure. However, caution may be required in fragile elderly patients and in patients with severe impaired renal function. Further post-marketing surveillance is recommended to demonstrate long-term safety. FDC may improve adherence.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_27854055",
+    "title": "Fixed-Dose Combination of Canagliflozin and Metformin for the Treatment of Type 2 Diabetes: An Overview.",
+    "authors": [
+      "Jaime A Davidson",
+      "Lance Sloan"
+    ],
+    "year": 2017,
+    "source": "PubMed",
+    "pmid": "27854055",
+    "doi": "10.1111/dom.12348",
+    "journal": "Advances in therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27854055/",
+    "text": "UNLABELLED: Metformin is recommended as a first-line therapy for patients with type 2 diabetes mellitus (T2DM). However, many patients do not achieve glycemic goals with metformin monotherapy and require subsequent combination therapy with other antihyperglycemic agents (AHAs). For newly diagnosed patients with high blood glucose, initial combination therapy may be required to achieve glycemic control. The American Association for Clinical Endocrinologists algorithm for the treatment of T2DM recommends metformin plus a sodium glucose co-transporter 2 (SGLT2) inhibitor as the first oral combination in patients who present with HbA1c \u22657.5%. Canagliflozin, an SGLT2 inhibitor, lowers the renal threshold for glucose and increases urinary glucose excretion leading to a mild osmotic diuresis and a net caloric loss. The effect of canagliflozin is insulin-independent and complementary to other AHAs, including metformin. A fixed-dose combination (FDC) of canagliflozin and metformin is also available with variable dosing, which may be attractive to some patients owing to the potential for reduced pill burden and costs. This article reviews the efficacy and safety of canagliflozin in combination with metformin based on data from the canagliflozin phase 3 clinical program. As initial combination therapy in drug-na\u00efve patients or as dual therapy with metformin or triple therapy in combination with metformin and other AHAs, canagliflozin 100 and 300\u00a0mg improved glycemic control and provided reductions in body weight and systolic blood pressure that were sustained for up to 104\u00a0weeks. Canagliflozin was generally well tolerated across studies in combination with metformin. An increased incidence of adverse events (AEs) related to the mechanism of SGLT2 inhibition (i.e., genital mycotic infections, urinary tract infections, osmotic diuresis-related AEs) was observed with canagliflozin. Canagliflozin was associated with a low incidence of hypoglycemia when not used in conjunction with AHAs associated with hypoglycemia (i.e., insulin or sulfonylurea). Together, these results support the use of a canagliflozin and metformin FDC as a treatment approach for a broad range of patients with T2DM.\nFUNDING: Janssen Scientific Affairs, LLC.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_14749143",
+    "title": "Metformin hydrochloride in the treatment of type 2 diabetes mellitus: a clinical review with a focus on dual therapy.",
+    "authors": [
+      "Stephen M Setter",
+      "Jason L Iltz",
+      "Jason Thams",
+      "R Keith Campbell"
+    ],
+    "year": 2003,
+    "source": "PubMed",
+    "pmid": "14749143",
+    "doi": "10.1016/s0149-2918(03)90089-0",
+    "journal": "Clinical therapeutics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14749143/",
+    "text": "BACKGROUND: Type 2 diabetes mellitus typically involves abnormal beta-cell function that results in relative insulin deficiency, insulin resistance accompanied by decreased glucose transport into muscle and fat cells, and increased hepatic glucose output, all of which contribute to hyperglycemia.\nOBJECTIVE: This review examines the pharmacology, pharmacokinetics, drug-interaction potential, adverse effects, and dosing guidelines for metformin hydrochloride, a biguanide agent for the treatment of type 2 diabetes. Clinical trial data are reviewed, including efficacy and tolerability information, with a focus on studies of dual metformin therapy (metformin plus another oral agent or insulin) published from 1998 to the present. Pharmacoeconomic considerations are also discussed.\nMETHODS: Primary research and review articles were identified through a search of MEDLINE (1966-May 2003) and International Pharmaceutical Abstracts (1970-May 2003) using the terms metformin and/or Glucophage. Web of Science (1995-May 2003) was used to search for additional abstracts. The package inserts for metformin and metformin combination products were consulted. All identified articles and abstracts were assessed for relevance, and all relevant information was included. Priority was given to the primary medical literature and clinical trial reports.\nRESULTS: Metformin is the only currently available oral antidiabetic/hypoglycemic agent that acts predominantly by inhibiting hepatic glucose release. Because patients with type 2 diabetes often have excess hepatic glucose output, use of metformin is effective in lowering glycosylated hemoglobin (HbA1c) by 1 to 2 percentage points when used as monotherapy or in combination with other blood glucose-lowering agents or insulin. Other metabolic variables (eg, dyslipidemia, fibrinolysis) may be improved with the use of metformin. Body weight is often maintained or slightly reduced from baseline. Metformin is well tolerated and is associated with few clinically deleterious adverse events. The most important and potentially life-threatening adverse event associated with its use is lactic acidosis, which occurs very rarely.\nCONCLUSIONS: Metformin has multiple benefits in patients with type 2 diabetes. It can effectively lower HbA1c values, positively affect lipid profiles, and improve vascular and hemodynamic indices. Adverse effects are generally tolerable and self-limiting. The availability of products combining metformin with a sulfonylurea or rosiglitazone has expanded the array of therapies for the management of type 2 diabetes.",
+    "query_topic": "metformin"
+  },
+  {
+    "document_id": "pmid_36814831",
+    "title": "Metformin therapy in pediatric type 2 diabetes mellitus and its comorbidities: A review.",
+    "authors": [
+      "Haifa Alfaraidi",
+      "M Constantine Samaan"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "36814831",
+    "doi": "10.1210/clinem/dgab170",
+    "journal": "Frontiers in endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36814831/",
+    "text": "Type 2 diabetes (T2D) rates in children and adolescents are rising globally. T2D is a complex and aggressive disease in children with several comorbidities, high treatment failure rates, and insulin needs within a few years from diagnosis. While myriads of pharmacotherapies are licensed to treat adults with T2D, treatments accessible to children and adolescents have been limited until recently. Metformin is an old drug with multiple beneficial metabolic health effects beyond glycemic control. This review discusses Metformin's origins, its mechanisms of action, and evidence for its use in the pediatric population to treat and prevent T2D. We also explore the evidence for its use as an obesity therapy, which is the primary driver of T2D, and T2D-driven comorbidities. While emerging therapies create new horizons for managing pediatric T2D, Metformin remains an inexpensive and safe part of the treatment plans of many T2D children globally for its beneficial metabolic effects.",
+    "query_topic": "metformin"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "item_id": "bm_01",
+    "patient_id": "patient_001",
+    "question": "What factors could explain elevated HbA1c despite metformin adherence?",
+    "gold_evidence": ["pmid_14749143_chunk_4", "pmid_14749143_chunk_3"],
+    "expected_claims": [
+      "Metformin lowers blood glucose primarily through reduced hepatic glucose production and improved insulin sensitivity, not by directly targeting every cause of hyperglycemia."
+    ],
+    "notes": "Interpretive/patient-specific question; corpus has general metformin pharmacology but no single passage directly explaining why HbA1c can stay elevated on therapy - a realistic hard case for retrieval coverage."
+  },
+  {
+    "item_id": "bm_02",
+    "patient_id": "patient_001",
+    "question": "What are common gastrointestinal side effects of metformin?",
+    "gold_evidence": ["pmid_36187122_chunk_1", "pmid_36187122_chunk_0"],
+    "expected_claims": [
+      "Metformin is commonly associated with gastrointestinal adverse events such as diarrhea, nausea, and abdominal discomfort."
+    ],
+    "notes": "Direct topical match - paper is specifically about GI adverse events of metformin."
+  },
+  {
+    "item_id": "bm_03",
+    "patient_id": "patient_001",
+    "question": "How does elevated LDL cholesterol relate to cardiovascular risk?",
+    "gold_evidence": ["pmid_35759179_chunk_0", "pmid_32350699_chunk_0"],
+    "expected_claims": [
+      "Elevated LDL cholesterol is an established risk factor for atherosclerotic cardiovascular disease, and lowering LDL reduces cardiovascular risk."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_04",
+    "patient_id": "patient_001",
+    "question": "What lifestyle changes can improve glycemic control in type 2 diabetes?",
+    "gold_evidence": ["pmid_38638032_chunk_1", "pmid_39934727_chunk_0"],
+    "expected_claims": [
+      "Dietary interventions and structured physical activity can improve glycemic control in type 2 diabetes."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_05",
+    "patient_id": "patient_002",
+    "question": "How does chronic kidney disease progress in patients with declining eGFR?",
+    "gold_evidence": ["pmid_27115888_chunk_0", "pmid_41152063_chunk_0"],
+    "expected_claims": [
+      "Declining eGFR reflects progressive loss of kidney function and is used to stage chronic kidney disease severity."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_06",
+    "patient_id": "patient_002",
+    "question": "What is the relationship between ACE inhibitors and blood pressure control?",
+    "gold_evidence": ["pmid_1893644_chunk_0"],
+    "expected_claims": [
+      "ACE inhibitors lower blood pressure by interrupting the renin-angiotensin-aldosterone system."
+    ],
+    "notes": "Weaker retrieval match (moderate rerank score) - corpus coverage of ACE-inhibitor mechanism specifically is thin; realistic moderate-difficulty case."
+  },
+  {
+    "item_id": "bm_07",
+    "patient_id": "patient_003",
+    "question": "How is hypothyroidism diagnosed and treated based on TSH levels?",
+    "gold_evidence": ["pmid_36632720_chunk_0", "pmid_31485975_chunk_1"],
+    "expected_claims": [
+      "Hypothyroidism is diagnosed using elevated TSH (with or without low free T4) and is typically treated with levothyroxine replacement."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_08",
+    "patient_id": "patient_003",
+    "question": "What causes iron deficiency anemia and how is it treated?",
+    "gold_evidence": ["pmid_41525691_chunk_0", "pmid_31715055_chunk_0"],
+    "expected_claims": [
+      "Iron deficiency anemia results from inadequate iron stores relative to demand and is treated with iron repletion, typically oral iron supplementation."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_09",
+    "patient_id": "patient_001",
+    "question": "What are the cardiovascular risks associated with type 2 diabetes?",
+    "gold_evidence": ["pmid_35000404_chunk_0", "pmid_37193856_chunk_0"],
+    "expected_claims": [
+      "Type 2 diabetes is associated with increased cardiovascular risk, and comprehensive risk-factor management is recommended."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_10",
+    "patient_id": "patient_001",
+    "question": "How does physical activity affect glycemic control in diabetes?",
+    "gold_evidence": ["pmid_38241499_chunk_0", "pmid_30414785_chunk_0"],
+    "expected_claims": [
+      "Regular physical activity, including aerobic and resistance exercise, improves glycemic control in people with diabetes."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_11",
+    "patient_id": "patient_002",
+    "question": "What factors affect medication adherence in chronic disease management?",
+    "gold_evidence": ["pmid_26482548_chunk_0", "pmid_38403396_chunk_0"],
+    "expected_claims": [
+      "Medication adherence in chronic disease is influenced by factors such as regimen complexity, side effects, health literacy, and cost."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_12",
+    "patient_id": "patient_002",
+    "question": "What are the diagnostic criteria for chronic kidney disease staging by eGFR?",
+    "gold_evidence": ["pmid_41152063_chunk_0", "pmid_38215416_chunk_0"],
+    "expected_claims": [
+      "Chronic kidney disease is staged based on eGFR thresholds combined with markers of kidney damage such as albuminuria."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_13",
+    "patient_id": "patient_001",
+    "question": "How are statins used to manage hyperlipidemia?",
+    "gold_evidence": ["pmid_28978219_chunk_1", "pmid_24978144_chunk_0"],
+    "expected_claims": [
+      "Statins are a first-line pharmacologic therapy for hyperlipidemia and work by lowering LDL cholesterol."
+    ],
+    "notes": ""
+  },
+  {
+    "item_id": "bm_14",
+    "patient_id": "patient_002",
+    "question": "What is the significance of an elevated urine albumin-to-creatinine ratio?",
+    "gold_evidence": ["pmid_40849875_chunk_1", "pmid_32862232_chunk_1"],
+    "expected_claims": [
+      "An elevated urine albumin-to-creatinine ratio indicates kidney damage and is used alongside eGFR to assess chronic kidney disease severity and risk."
+    ],
+    "notes": "Weaker retrieval match (low rerank/BM25 scores) - corpus has limited direct coverage of ACR specifically; realistic hard case."
+  },
+  {
+    "item_id": "bm_15",
+    "patient_id": "patient_003",
+    "question": "What symptoms are associated with hypothyroidism?",
+    "gold_evidence": ["pmid_36632720_chunk_0", "pmid_33193104_chunk_0"],
+    "expected_claims": [
+      "Hypothyroidism can present with symptoms such as fatigue, cold intolerance, and reduced quality of life."
+    ],
+    "notes": ""
+  }
+]

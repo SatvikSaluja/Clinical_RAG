@@ -1,0 +1,409 @@
+[
+  {
+    "document_id": "pmid_36824358",
+    "title": "The association between self-monitoring of blood glucose and HbA1c in type 2 diabetes.",
+    "authors": [
+      "Yanping Yuan",
+      "Xianghai Zhou",
+      "Weiping Jia",
+      "Jian Zhou",
+      "Fan Zhang",
+      "Jianling Du",
+      "Linong Ji"
+    ],
+    "year": 2023,
+    "source": "PubMed",
+    "pmid": "36824358",
+    "doi": "10.1001/jamainternmed.2017.1233",
+    "journal": "Frontiers in endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36824358/",
+    "text": "AIMS: Fasting capillary blood glucose (FCG) and postprandial capillary blood glucose (PCG) both contribute to HbA1c in diabetes. Due to the collinearity between FCG and PCG, the HbA1c prediction model could not be developed with both FCG and PCG by linear regression. The study aimed to develop an HbA1c prediction model with both FCG and PCG to estimate HbA1c in type 2 diabetes.\nMETHODS: A total of 1,642 patients with type 2 diabetes who had at least three FCG and three PCG measurements in the past 3 months were enrolled in the study. The mean of FCG (MEANFCG) and PCG (MEANPCG) were calculated for each patient. The patients were randomized into exploratory and validation groups. The former was used for developing HbA1c prediction models and the latter for performance evaluation.\nRESULTS: The new HbA1c prediction model using ridge regression expressed as HbA1c (%) = 0.320\u00d7MEANFCG (mmol/L) + 0.187\u00d7MEANPCG (mmol/L) + 2.979, R2 = 0.668. Compared to linear regression models developed with FCG, PCG, fasting plasma glucose (FPG), and 2-hour postprandial plasma glucose (2-h PPG), respectively, the new HbA1c prediction model showed the smallest mean square error, root mean square error, mean absolute error. The concordance correlation coefficient of the new HbA1c prediction model and the linear regression models with MEANFCG, MEANPCG, FPG or 2-h PPG were 0.810,0.773,0.749,0.715,0.672.\nCONCLUSION: We have developed a new HbA1c prediction model with both FCG and PCG, which showed better prediction ability and good agreement.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_30575414",
+    "title": "The Relationship of Hemoglobin A1C to Time-in-Range in Patients with Diabetes.",
+    "authors": [
+      "Robert A Vigersky",
+      "Chantal McMahon"
+    ],
+    "year": 2019,
+    "source": "PubMed",
+    "pmid": "30575414",
+    "doi": "10.1089/dia.2018.0310",
+    "journal": "Diabetes technology & therapeutics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30575414/",
+    "text": "BACKGROUND: There has been recent recognition of the limitations of hemoglobin A1C (HbA1C) in describing both short- and long-term glycemic control. Continuous glucose monitoring (CGM) provides robust data about short-term glycemic control and provides metrics such as percent time-in-range (%TIR) that are now routinely reported to describe the change in glycemic control after an intervention in a clinical study or a change in therapy in a patient's care. Recent studies have shown that %TIR may have similar associations with diabetes microvascular complications as does HbA1C. The relationship of %TIR to the long-standing metric of overall glycemic control has not been clearly defined to date.\nMETHODS: Articles that report paired HbA1C and %TIR metrics (n\u2009=\u20091137) or HbA1C and frequent self-monitoring of blood glucose (SMBG) (n\u2009=\u20091440) across a wide range of HbA1Cs, technologies, and subject demographics were reviewed to determine the correlation of these metrics.\nRESULTS: Selected paired HbA1C and %TIR data from 18 articles were evaluated by linear regression analysis and Pearson's correlation coefficient. There was an excellent correlation between the two (R\u2009=\u2009-0.84; R2\u2009=\u20090.71). This relationship did not change after excluding one study that used SMBG or six studies with \u22647 days of CGM. For every absolute 10% change in %TIR, there was a 0.8% (9\u2009mmol/mol) change in HbA1C.\nCONCLUSIONS: There is a good correlation between HbA1C and %TIR that may permit the transition to %TIR as the preferred metric for determining the outcome of clinical studies, predicting of the risk of diabetes complications, and assessing of an individual patient's glycemic control.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_42035781",
+    "title": "Continuous glucose monitoring versus self-monitoring of blood glucose in individuals with type 2 diabetes: a randomised, multicentre, open-label, superiority trial.",
+    "authors": [
+      "Emma G Wilmot",
+      "Patrick Moore",
+      "Thozhukat Sathyapalan",
+      "Pratik Choudhary",
+      "Jonathan Z M Lim",
+      "Sankalpa Neupane",
+      "Thomas S J Crabtree",
+      "Ahmed Iqbal",
+      "Mark L Evans",
+      "Gerry Rayman",
+      "Hermione C Price",
+      "Ramzi A Ajjan",
+      "Yee S Cheah",
+      "Alistair Lumb",
+      "Samiul Mostafa",
+      "Iqbal Malik",
+      "Iain Cranston",
+      "Thinzar Min",
+      "Edward B Jude",
+      "Shivshankar Seechurn",
+      "James McLaren",
+      "Katharine Barnard-Kelly",
+      "Thomas Yates",
+      "Rachel A Elliott",
+      "Lalantha Leelarathna"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "pmid": "42035781",
+    "doi": "10.1016/S2213-8587(26)00076-8",
+    "journal": "The lancet. Diabetes & endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42035781/",
+    "text": "BACKGROUND: Type 2 diabetes is the most common metabolic disorder worldwide, accounting for about 90% of people living with diabetes. Glycated haemoglobin (HbA1c), a measure of chronic glycaemic exposure, correlates with the risk of long-term complications, which can result in substantial morbidity for people with diabetes and major costs to health-care systems. The value of continuous glucose monitoring (CGM) in people with type 2 diabetes managed with basal insulin and modern therapies remains unclear. FreeDM2 aimed to evaluate the effectiveness of real-time CGM in adults with type 2 diabetes.\nMETHODS: This open-label, parallel-design, randomised controlled trial conducted across 24 primary and secondary care centres in the UK enrolled adults with type 2 diabetes managed with basal insulin and SGLT2 inhibitors or GLP-1 receptor agonists or dual GIP/GLP-1 receptor agonists with HbA1c 7\u00b75-11\u00b70%. Participants were assigned (2:1; using permuted block randomisation by study site, generated by Sealed Envelope) to CGM (intervention) or continuation of self-monitoring of blood glucose (SMBG; control), across two phases: weeks 1-16, self-management with basal insulin self-titration; and weeks 17-32, clinician-supported where additional therapies could be initiated in line with national guidance. Participants and study site staff were not masked to group allocation. The primary outcome was difference between groups in HbA1c concentrations at 16 weeks, and the key secondary outcome was the difference between groups at 32 weeks, both in the treatment policy estimand. Safety analysis included all randomly assigned participants. The FreeDM2 randomised controlled trial is registered at ClinicalTrials.gov (NCT05944432) and is complete.\nFINDINGS: Between July 26, 2023, and Jan 31, 2025, 469 individuals underwent screening for potential study inclusion, 140 were excluded due to not meeting inclusion criteria, and 329 were included in the baseline phase of the study. 26 individuals were then excluded due to insufficient data capture or withdrawal, and 303 participants were randomly assigned; 198 to the CGM intervention group and 105 to the SMBG control group. 204 (67%) participants were male and 99 (33%) were female, the mean age of the cohort was 60\u00b77 years (SD 9\u00b78), and mean diabetes duration was 16\u00b77 years (6\u00b79). Baseline HbA1c concentration was 8\u00b78% (SD 1\u00b70) in the CGM group and 8\u00b78% (1\u00b71) in the control group, decreasing to 8\u00b70% (0\u00b79) in the CGM group and to 8\u00b77% (1\u00b71) in the control group at week 16 (adjusted difference -0\u00b76 [95% CI -0\u00b78 to -0\u00b73]; p<0\u00b70001) and decreasing further to 7\u00b78% (0\u00b79) in the CGM group and to 8\u00b73% (1\u00b72) in the control group at week 32 (adjusted difference -0\u00b75 [95% CI -0\u00b77 to -0\u00b72]; p<0\u00b70001). There was a similar incidence of non-device-related adverse events in both groups, and two instances of severe hypoglycaemia in the control group.\nINTERPRETATION: In adults with type 2 diabetes on basal insulin plus modern therapies, real-time CGM improved glycaemic control versus SMBG during self-management and under clinician-supported management.\nFUNDING: Abbott Diabetes Care.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_7555499",
+    "title": "Assessment of diabetes-related distress.",
+    "authors": [
+      "W H Polonsky",
+      "B J Anderson",
+      "P A Lohrer",
+      "G Welch",
+      "A M Jacobson",
+      "J E Aponte",
+      "C E Schwartz"
+    ],
+    "year": 1995,
+    "source": "PubMed",
+    "pmid": "7555499",
+    "doi": "10.2337/diacare.18.6.754",
+    "journal": "Diabetes care",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7555499/",
+    "text": "OBJECTIVE: To describe a new measure of psychosocial adjustment specific to diabetes, the Problem Areas in Diabetes Survey (PAID), and to present initial information on its reliability and validity.\nRESEARCH DESIGN AND METHODS: Before their routine clinic appointments, 451 female patients with type I and type II diabetes, all of whom required insulin, completed a self-report survey. Included in the survey was the PAID, a 20-item questionnaire in which each item represents a unique area of diabetes-related psychosocial distress. Each item is rated on a six-point Likert scale, reflecting the degree to which the item is perceived as currently problematic. A total scale score, hypothesized to reflect the overall level of diabetes-related emotional distress, is computed by summing the total item responses. To examine the concurrent validity of the PAID, the survey also included a series of standardized questionnaires assessing psychosocial functioning (general emotional distress, fear of hypoglycemia, and disordered eating), attitudes toward diabetes, and self-care behaviors. All subjects were assessed for HbA1, within 30 days of survey completion and again approximately 1-2 years later. Finally, long-term diabetic complications were determined through chart review.\nRESULTS: Internal reliability of the PAID was high, with good item-to-total correlations. Approximately 60% of the subject sample reported at least one serious diabetes-related concern. As expected, the PAID was positively associated with relevant psychosocial measures of distress, including general emotional distress, disordered eating, and fear of hypoglycemia, short- and long-term diabetic complications, and HbA1, and negatively associated with reported self-care behaviors. The PAID accounted for approximately 9% of the variance in HbA1. Diabetes-related emotional distress, as measured by the PAID, was found to be a unique contributor to adherence to self-care behaviors after adjustment for age, diabetes duration, and general emotional distress. In addition, the PAID was associated with HbA1 even after adjustment for age, diabetes duration, general emotional distress, and adherence to self-care behaviors.\nCONCLUSIONS: These findings suggest that the PAID, a brief, easy-to-administer instrument, may be valuable in assessing psychosocial adjustment to diabetes. In addition to high internal reliability, the consistent pattern of correlational findings indicates that the PAID is tapping into relevant aspects of emotional distress and that its particular feature, the measurement of diabetes-related emotional distress, is uniquely associated with diabetes-relevant outcomes. These data are also consistent with the hypothesis that diabetes-related emotional distress, separate from general emotional distress, is an independent and major contributor to poor adherence. Given that the study was limited to female patients using insulin, further examination of the clinical usefulness of the PAID will need to focus on more heterogeneous samples.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_30224348",
+    "title": "Glucose Management Indicator (GMI): A New Term for Estimating A1C From Continuous Glucose Monitoring.",
+    "authors": [
+      "Richard M Bergenstal",
+      "Roy W Beck",
+      "Kelly L Close",
+      "George Grunberger",
+      "David B Sacks",
+      "Aaron Kowalski",
+      "Adam S Brown",
+      "Lutz Heinemann",
+      "Grazia Aleppo",
+      "Donna B Ryan",
+      "Tonya D Riddlesworth",
+      "William T Cefalu"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "30224348",
+    "doi": "10.2337/dc18-1581",
+    "journal": "Diabetes care",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30224348/",
+    "text": "While A1C is well established as an important risk marker for diabetes complications, with the increasing use of continuous glucose monitoring (CGM) to help facilitate safe and effective diabetes management, it is important to understand how CGM metrics, such as mean glucose, and A1C correlate. Estimated A1C (eA1C) is a measure converting the mean glucose from CGM or self-monitored blood glucose readings, using a formula derived from glucose readings from a population of individuals, into an estimate of a simultaneously measured laboratory A1C. Many patients and clinicians find the eA1C to be a helpful educational tool, but others are often confused or even frustrated if the eA1C and laboratory-measured A1C do not agree. In the U.S., the Food and Drug Administration determined that the nomenclature of eA1C needed to change. This led the authors to work toward a multipart solution to facilitate the retention of such a metric, which includes renaming the eA1C the glucose management indicator (GMI) and generating a new formula for converting CGM-derived mean glucose to GMI based on recent clinical trials using the most accurate CGM systems available. The final aspect of ensuring a smooth transition from the old eA1C to the new GMI is providing new CGM analyses and explanations to further understand how to interpret GMI and use it most effectively in clinical practice. This Perspective will address why a new name for eA1C was needed, why GMI was selected as the new name, how GMI is calculated, and how to understand and explain GMI if one chooses to use GMI as a tool in diabetes education or management.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_27901179",
+    "title": "Correlation between parameters of self-monitoring of blood glucose and the perception of health-related quality of life in patients with type 1 diabetes mellitus.",
+    "authors": [
+      "Juliana Santos Paula",
+      "Let\u00edcia Dinis Braga",
+      "Rodrigo Oliveira Moreira",
+      "Rosane Kupfer"
+    ],
+    "year": 2017,
+    "source": "PubMed",
+    "pmid": "27901179",
+    "doi": "10.1590/2359-3997000000222",
+    "journal": "Archives of endocrinology and metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27901179/",
+    "text": "OBJECTIVE: The aim of this study was to evaluate how different parameters of short-term glycemic control would correlate with the perception of health-related quality of life (HRQoL) in patients with type 1 diabetes mellitus (T1D).\nSUBJECTS AND METHODS: A total of 50 T1D patients aged 18 to 50 years were evaluated with the questionnaires Problem Areas in Diabetes (PAID) scale and Diabetes Quality of Life (DQOL) measure after 30 days of self-monitoring of blood glucose (SMBG). Glycemic control was evaluated using glycated hemoglobin (HbA1c), mean glucose levels (MGL) in the prior month's data from SMBG (Accu-Check 360o), number of hypoglycemic episodes (< 70 mg/dL and < 50 mg/dL), and glycemic variability (GV).\nRESULTS: PAID correlated positively with MGL (r = 0.52; p < 0.001) and HbA1c (r = 0.36; p < 0.0097), but not with GV (r = 0.17; p = 0.23) or number of hypoglycemic episodes (r = 0.15; p = 0.17 for glucose < 70 mg/dL and r = 0.02; p = 0.85 for glucose < 50 mg/dL). After multiple linear regression, only MGL remained independently related to PAID scores. DQOL scores had a positive correlation with MGL (r = 0.45; p = 0.001), but not with HbA1c (r = 0.23; p = 0.09), GV (r = 0.20; p = 0.16), or number of hypoglycemic episodes (r = 0.06 p = 0.68).\nCONCLUSION: In T1D patients, MGL, but not HbA1c or number hypoglycemic episodes, was the glycemic control parameter that best correlated with short-term perception of HRQoL.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_39529452",
+    "title": "Time in tight range: A key metric for optimal glucose control in the era of advanced diabetes technologies and therapeutics.",
+    "authors": [
+      "Ziyi Zhang",
+      "Yaxin Wang",
+      "Jingyi Lu",
+      "Jian Zhou"
+    ],
+    "year": 2025,
+    "source": "PubMed",
+    "pmid": "39529452",
+    "doi": "10.1111/dom.16033",
+    "journal": "Diabetes, obesity & metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39529452/",
+    "text": "Compared to glycated haemoglobin A1c (HbA1c), the rapidly developing continuous glucose monitoring (CGM) technology provides more detailed information about glycemic control. Amongst the new glucose metrics derived from CGM, time in target range of 3.9-10.0\u2009mmol/L (time in range, TIR) has been widely used for the assessment of glucose control. In recent years, the rise of new technologies and therapies including advanced hybrid closed-loop automated insulin delivery systems and new hypoglycemic drugs has made it possible to achieve better glycemic control. In this context, the concept of time in tight range (TITR), defined as the percentage of time spent in target glucose range of 3.9-7.8\u2009mmol/L, has gained increasing attention. Whilst TITR is highly correlated with TIR, there are still differences between the two metrics. These differences make TITR a more appropriate indicator in certain situations, such as when glucose levels are close to normal or when tighter glycemic control is required. This review summarizes recent studies related to TITR.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_29673846",
+    "title": "Estimating HbA1c from timed Self-Monitored Blood Glucose values.",
+    "authors": [
+      "WuQiang Fan",
+      "Hui Zheng",
+      "Nancy Wei",
+      "David M Nathan"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "29673846",
+    "doi": "10.1016/j.diabres.2018.04.023",
+    "journal": "Diabetes research and clinical practice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29673846/",
+    "text": "AIMS: To analyze mathematical relationships between timed Self-Monitored Blood Glucose (SMBG) and HbA1c, and to identify the SMBG values that correlate most strongly with HbA1c.\nMETHODS: We utilized the average premeal (Pre) and 90-min postmeal (Post) SMBG results from 547 A1c-Derived Average Glucose (ADAG) study participants (285 type 1, 178 type 2 and 84 non-diabetic) to analyze the mathematical relationships with HbA1c levels. Specific times of daily SMBG that best correlate with HbA1c were identified.\nRESULTS: Linear regression analyses showed the following correlations for Pre and Post, Pre only and Post only, respectively: HbA1c\u202f=\u202f2.488\u202f+\u202f0.018\u202f\u00d7\u202fPremg/dl\u202f+\u202f0.012\u202f\u00d7\u202fPostmg/dl, R2\u202f=\u202f0.741, P\u202f<\u202f0.0001; HbA1c\u202f=\u202f2.887\u202f+\u202f0.029\u202f\u00d7\u202fPremg/dl, R2\u202f=\u202f0.695, P\u202f<\u202f0.0001; and HbA1c\u202f=\u202f2.815\u202f+\u202f0.025\u202f\u00d7\u202fPostmg/dl, R2\u202f=\u202f0.657, P\u202f<\u202f0.0001. Among patients with type 2 diabetes mellitus (DM), of the 6 individual timepoints, pre-dinner SMBG had the strongest correlation with HbA1c (R2\u202f=\u202f0.577). This was followed by pre-breakfast (R2\u202f=\u202f0.562). Examining combinations of timepoints revealed that pre-breakfast\u202f+\u202fpre-dinner (R2\u202f=\u202f0.666) performed similarly to the full 6-timepoints (pre-meals\u202f+\u202fpost-meals, R2\u202f=\u202f0.712).\nCONCLUSIONS: We have established mathematical relationships between HbA1c and timed SMBG values and identified pre-dinner and pre-breakfast as the two SMBG timepoints that best correlate with HbA1c in patients with type 2 DM.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_22920827",
+    "title": "Self-monitoring of blood glucose: one STeP forward?",
+    "authors": [
+      "Wendelin Schramm"
+    ],
+    "year": 2012,
+    "source": "PubMed",
+    "pmid": "22920827",
+    "doi": "10.1177/193229681200600432",
+    "journal": "Journal of diabetes science and technology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22920827/",
+    "text": "INTRODUCTION: In times of short health care budgets, reimbursement for self-monitoring of blood glucose (SMBG) in diabetes patients without insulin treatment is subject to debate. The Structured Testing Program (STeP) trial found a positive correlation of test frequency and improved hemoglobin A1c (HbA1c) levels in poorly controlled type 2 diabetes patients not treated with insulin.\nMETHODS: A structured literature search for other clinical studies reporting on SMBG frequency was performed.\nRESULTS: There is scarce evidence: three trials, including STeP, noted a significant and relevant correlation between testing frequency and improved HbA1c levels (FA effect), whereas two studies did not. The comparability between the identified studies is problematic.\nCONCLUSION: Future research should consider correlations between testing frequency and level of glycemic control. More emphasis should be placed on a structured approach to use SMBG and to address adherence to testing and therapy.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_29124865",
+    "title": "How does CKD affect HbA1c?",
+    "authors": [
+      "Zachary Bloomgarden",
+      "Yehuda Handelsman"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "29124865",
+    "doi": "10.1111/1753-0407.12624",
+    "journal": "Journal of diabetes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29124865/",
+    "text": "HOW DOES CHRONIC KIDNEY DISEASE AFFECT HBA1C?: A number of factors determine HbA1c other than the level of glucose exposure alone. In an subset analysis of the Atherosclerosis Risk in Communities study of 941 diabetic people with varying degrees of chronic kidney disease (CKD), as well as 724 who did not have CKD, and mean age in the eighth decade, Jung et al. ask whether HbA1c is reliable as an indicator of glycemia in people with kidney disease (CKD) to the same degree as in those not having kidney disease, and, if not, whether measures of glycated serum proteins may be more useful. The only available measure of glycemia for comparison was a single fasting glucose level, and the authors acknowledge that this gives an incomplete measure, particularly in people with relatively mild diabetes, whose mean HbA1c was 6.4%, with most having levels of 7.5% or lower. In patients of this sort, postprandial glucose levels may better explain variations in mean HbA1c. Recognizing that the dataset may be limited, Jung et al. nevertheless give an intriguingly negative answer to the first question, of the reliability of HbA1c with kidney disease. Using Deming regression analysis, Jung et al. showed that the correlation between HbA1c and fasting glucose weakens as renal function worsens, and, moreover, that this appears particularly to be the case in people with anemia (hemoglobin <130 and <120\u2009g/L for men and women, respectively), confirming earlier observations. Among those diabetic people with neither anemia nor CKD, the correlation coefficient between HbA1c and fasting glucose was r\u2009=\u20090.70, compared with r\u2009=\u20090.35 among those with both anemia and very severe CKD (estimated glomerular filtration rate [eGFR] <30 or <45\u2009mL/min per 1.73\u2009m2 with at least microalbuminuria, or eGFR <60\u2009mL/min per 1.73\u2009m2 with macroalbuminuria). As far as the second question, of whether the alternative measures, namely fructosamine and glycated albumin, may be more useful with CKD, Jung et al. found that these parameters are equally flawed with CKD. Intriguingly, this suggests that anemia affects indirect measures of glycemic exposure not only by its association with more rapid erythrocyte turnover, but, more generally, also as a marker of a catabolic state with altered plasma protein turnover. How, then, should we assess a given diabetic person's degree of glycemic control in the presence of CKD (or of anemia, which, per Jung et al., was, even without CKD, also associated with a reduction in the correlation between HbA1c and fasting glucose)? Jung et al. suggest the use of continuous glucose monitoring to estimate average glucose. Although becoming recognized as an important tool, this technology is not as generally available as the simpler self-monitoring of blood glucose (SMBG). In an earlier analysis of potential complexities of HbA1c as a measure of glycemic exposure, we showed that self-monitored plasma glucose profiles suggest that approximately 10% of individuals with diabetes have HbA1c substantially above and another 10% have HbA1c substantially below those that may be anticipated based on mean glucose levels. In clinical practice, then, we should consider encouraging older people with diabetes and CKD to perform SMBG to more adequately interpret HbA1c results.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_12135193",
+    "title": "A comparison of fructosamine and HbA1c for home self-monitoring blood glucose levels in type 2 diabetes.",
+    "authors": [
+      "Harn-Shen Chen",
+      "Ru-Lin Chen",
+      "Zer-Yuang Chang",
+      "Hong-Da Li"
+    ],
+    "year": 2002,
+    "source": "PubMed",
+    "pmid": "12135193",
+    "doi": null,
+    "journal": "Zhonghua yi xue za zhi = Chinese medical journal; Free China ed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12135193/",
+    "text": "BACKGROUND: Optimal glycemic control is believed to be essential in patients with diabetes to minimize any long-term complications. Measurement of the levels of glycated protein, such as fructosamine and glycated hemoglobin (HbA1c), is the most reliable method for assessing a period of glycemic control. This prospective study was performed to investigate whether fructosamine or HbA1c could provide a reliable index of glycemic control in type 2 diabetes.\nMETHODS: Twenty-five patients with type 2 diabetes were studied at four-week intervals. Their fasting, preprandial and postprandial blood glucose levels were checked by glucometer twice a week for 16 weeks. Serum fructosamine and HbA1c were measured on every visit. The correlation of fructosamine and HbA1c with self-monitoring of blood glucose (SMBG) values in the previous 1 to 16 weeks prior to their measurements were calculated.\nRESULTS: Both fructosamine and HbA1c were significantly correlated with SMBG values from one week to 16 weeks prior to measurements. The correlation between fructosamine and SMBG was stronger in the prior 3 to 6 weeks. The correlation between HbA1c and SMBG was higher in the previous 4 to 12 weeks with the peak falling in the previous 8-10 weeks. Except for the previous one week, all the correlations were significantly stronger between HbA1c and SMBG than between fructosamine and SMBG.\nCONCLUSIONS: In type 2 diabetes, serum fructosamine assay can better reflect average blood glucose concentration over the previous 3 to 6 weeks and HbA1c is better reflective over the previous 8 to 10 weeks. HbA1c measurement correlates more significantly with home capillary blood glucose levels than the fructosamine assay, even over the previous 2 to 3 weeks.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_21841656",
+    "title": "Assessing glycaemic control: self-monitoring of blood glucose.",
+    "authors": [
+      "Danny D Meetoo",
+      "Gillian McAllister",
+      "Adele West"
+    ],
+    "year": null,
+    "source": "PubMed",
+    "pmid": "21841656",
+    "doi": "10.12968/bjon.2011.20.15.919",
+    "journal": "British journal of nursing (Mark Allen Publishing)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21841656/",
+    "text": "Diabetes Mellitus is a chronic, lifelong metabolic disorder characterized by an elevated blood glucose level resulting from an absolute or relative shortage of insulin. Self-monitoring of blood glucose (SMBG) has escalated over the years following the outcomes of evidence demonstrating a strong correlation between tight blood glucose control and the significant reduction of diabetes-related complications. While glycosylated haemoglobin (HbA1c) measures mean glycaemic exposure during the preceding 2-3 months, it does not provide day-to-day changes in glucose levels. SMBG represents an important adjunct to HbA1c because it distinguishes among fasting, preprandial (before a meal) and postprandial (after a meal) hyperglycaemia and provides immediate feedback about the effect of food choices, activity and medication on glycaemic control. The successful outcome of glycaemic control cannot be effectively achieved without the input of the nurse. The nurse's role is to identify people with diabetes who are most likely to benefit from SMBG and provide them with appropriate education, problem solving skills and ongoing support.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_34850006",
+    "title": "Continuous Glucose Monitoring and HbA1c in Cystic Fibrosis: Clinical Correlations and Implications for CFRD Diagnosis.",
+    "authors": [
+      "Kevin J Scully",
+      "Jordan S Sherwood",
+      "Kimberly Martin",
+      "Melanie Ruazol",
+      "Peter Marchetti",
+      "Mary Larkin",
+      "Hui Zheng",
+      "Gregory S Sawicki",
+      "Ahmet Uluer",
+      "Isabel Neuringer",
+      "Lael M Yonker",
+      "Leonard Sicilian",
+      "Deborah J Wexler",
+      "Melissa S Putman"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "34850006",
+    "doi": "10.5061/dryad.k3j9kd57s",
+    "journal": "The Journal of clinical endocrinology and metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34850006/",
+    "text": "CONTEXT: The clinical utility and implications of continuous glucose monitoring (CGM) in cystic fibrosis (CF) are unclear.\nOBJECTIVE: We examined the correlation between CGM measures and clinical outcomes in adults with CF, investigated the relationship between hemoglobin A1c (HbA1c) and CGM-derived average glucose (AG), and explored CGM measures that distinguish cystic fibrosis-related diabetes (CFRD) from normal and abnormal glucose tolerance.\nMETHODS: This prospective observational study included 77 adults with CF who had CGM and HbA1c measured at 2 to 3 time points 3 months apart.\nRESULTS: Thirty-one of the 77 participants met American Diabetes Association-recommended diagnostic criteria for CFRD by oral glucose tolerance testing and/or HbA1c. In all participants, CGM measures of hyperglycemia and glycemic variability correlated with nutritional status and pulmonary function. HbA1c was correlated with AG (R2 = 0.71, P < 0.001), with no significant difference between this regression line and that previously established in type 1 and type 2 diabetes and healthy volunteers. Cutoffs of 17.5% time > 140 mg/dL and 3.4% time > 180 mg/dL had sensitivities of 87% and 90%, respectively, and specificities of 95%, for identifying CFRD. Area under the curve and percent of participants correctly classified with CFRD were higher for AG, SD, % time > 140, > 180, and > 250 mg/dL than for HbA1c.\nCONCLUSION: CGM measures of hyperglycemia and glycemic variability are superior to HbA1c in distinguishing those with and without CFRD. CGM-derived AG is strongly correlated with HbA1c in adults with CF, with a similar relationship to other diabetes populations. Future studies are needed to investigate CGM as a diagnostic and screening tool for CFRD.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_41253584",
+    "title": "Continuous glucose monitoring is a better indicator of glucose tolerance than HbA1c in cystic fibrosis.",
+    "authors": [
+      "Laure Alexandre-Heymann",
+      "Quitterie Reynaud",
+      "Caroline Grou",
+      "Val\u00e9rie Boudreau",
+      "Val\u00e9rie Parent",
+      "Luc Rakotoarisoa",
+      "Heather Girouard",
+      "Isabelle Durieu",
+      "Laurence Kessler",
+      "Ad\u00e8le Coriati"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "pmid": "41253584",
+    "doi": "10.1016/j.jcf.2025.11.003",
+    "journal": "Journal of cystic fibrosis : official journal of the European Cystic Fibrosis Society",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41253584/",
+    "text": "BACKGROUND: Systematic screening for cystic fibrosis related diabetes (CFRD) is recommended for all people living with cystic fibrosis (pwCF) from the age of 10. However, adhering to these guidelines is challenging given the cumbersome nature and potential side effects of the current test of reference, the Oral Glucose Tolerance Test (OGTT). Continuous glucose monitoring (CGM) could become an alternative to OGTT, thanks to its ease of use and to the extensive information it provides.\nMETHODS: We present the baseline data from a prospective observational multicentric French and Canadian cohort. Concomitant OGTT, CGM and collection of clinical data were performed in adult pwCF.\nRESULTS: Complete data were available in 107 participants (73 with normal glucose tolerance, 24 with impaired glucose tolerance and 10 with cystic fibrosis related diabetes), of whom 63 % were treated with Elexacaftor/Tezacaftor/Ivacaftor. Glycated hemoglobin (HbA1c), time above 7.8mmol/L and time above 10mmol/L were lower in participants with normal glucose tolerance than in those with CFRD. Several CGM parameters associated more strongly with diagnosis of CFRD at OGTT than HbA1c (Area under the ROC curves: 0.88 for time above 10mmol/L and 0.87 for time above 7.8mmol/L, vs 0.61 for HbA1c). Spending more than 10 % of the time above 7.8mmol/L detected CFRD with 100 % sensitivity and 46% specificity.\nCONCLUSIONS: Certain CGM parameters correlated more closely with diagnosis of CFRD at OGTT than HbA1c in adult pwCF, with or without treatment by Elexacaftor/Tezacaftor/Ivacaftor. If future studies confirm these results prospectively, CGM could be used as a first step to screen for CFRD.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_7888692",
+    "title": "Self-monitoring of blood glucose in overweight type 2 diabetic patients.",
+    "authors": [
+      "D B Muchmore",
+      "J Springer",
+      "M Miller"
+    ],
+    "year": 1994,
+    "source": "PubMed",
+    "pmid": "7888692",
+    "doi": "10.1007/BF00571954",
+    "journal": "Acta diabetologica",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7888692/",
+    "text": "Self-monitoring of blood glucose (SBGM) is widely recommended for both type 1 and type 2 diabetic patients despite the lack of evidence of benefit in glucose control or as an aid in weight loss in type 2 subjects. This study tested the hypothesis that combined use of SMBG and dietary carbohydrate (CHO) counting, using the blood monitoring results to shape dietary CHO quotas, is beneficial in managing type 2 diabetes. Twenty-three overweight (body mass index, BMI 27.5-44 kg/m2) patients aged 40-75 participated in a 28-week behavioral weight control program. Baseline hemoglobin HbA1c ranged between 9.5% and 13.5% (normal range 5.5%-7.7%). Subjects were matched for weight, sex, and HbA1c and assigned to small (4-8 participants) groups which met weekly for 12 weeks and then monthly for 16 weeks. After 8 weeks, the groups were randomized either to continue the behavioral program or to have SMBG and dietary CHO counting. Glucose monitoring was performed 6 times daily (pre- and 2 h postprandially) for the first month, focusing on the meal increment and correlating this to dietary CHO intake. Weight loss was identical in both groups during the year of follow-up. The HbA1c level showed a progressive decline in experimental subjects (P < 0.05), whereas there was no improvement in control subjects.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_17851297",
+    "title": "Blood glucose monitoring: reducing the cost, increasing the benefit.",
+    "authors": [
+      "Paula Holt"
+    ],
+    "year": 2007,
+    "source": "PubMed",
+    "pmid": "17851297",
+    "doi": "10.12968/bjcn.2007.12.8.24360",
+    "journal": "British journal of community nursing",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17851297/",
+    "text": "The level of self blood glucose monitoring in patients who have diabetes has escalated over recent years following the results of two main research studies which identified a strong correlation between 'tight' blood glucose control and the reduction in diabetes related complications. This article analyses the effectiveness of self blood glucose monitoring for people with diabetes. Based on the research presented it goes on to discuss which patients should be encouraged to self blood glucose monitor and identify those for whom it may not be beneficial. Self blood glucose monitoring is discussed in relation to those receiving insulin therapy and those on diet and oral medication. Appropriate monitoring regimens are highlighted to ensure the effects of diet and medication on blood glucose level is assessed. Finally, strategies to look for patterns and trends in blood glucose levels are considered.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_36028448",
+    "title": "Correlation between glucose measurement parameters of continuous flash monitoring and HbA1c. Real life experience in Asturias.",
+    "authors": [
+      "Pedro Pujante Alarc\u00f3n",
+      "Carlos Alonso Felgueroso",
+      "Jessica Ares Blanco",
+      "Paula Morales S\u00e1nchez",
+      "Carmen Lambert Goitia",
+      "Ra\u00fal Rodr\u00edguez Escobedo",
+      "Sandra Rodr\u00edguez Rodero",
+      "El\u00edas Delgado Alvarez",
+      "Edelmiro Luis Men\u00e9ndez Torre"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "36028448",
+    "doi": "10.1016/j.endien.2022.08.001",
+    "journal": "Endocrinologia, diabetes y nutricion",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36028448/",
+    "text": "INTRODUCTION: Despite continuous glucose monitoring having been proven useful in patients with type 1 diabetes mellitus, A1C remains the gold standard for assessing disease management.\nMATERIAL AND METHODS: Descriptive, retrospective study which included 252 patients, 40.5% male, mean age 44.91\u00b114.57 years, mean duration of diabetes 22.21\u00b113.12 years, 88.1% on basal-bolus insulin therapy and 11.9% users of continuous subcutaneous insulin infusion. Glucose measurement, analytical and anthropometric data were obtained.\nRESULTS: The mean time in range was 60.18\u00b115.60% and was associated with A1C after adjusting for age, gender, duration of diabetes, BMI, insulin regimen, %CV and time below range (\u00df: -0.548; p<0.01). The glucose management indicator (GMI) was 7.19\u00b10.69% and was also associated with A1C (\u00df: 0.957; p<0.01) regardless of age, gender, duration of diabetes, BMI, insulin treatment, %CV and time in range. The average difference between A1C and GMI was 0.17\u00b10.65% (-2.70-3.40%), being higher as A1C increased, in a linear and significant manner, without being influenced by the duration of diabetes or CV.\nCONCLUSIONS: Although we found a positive correlation between continuous glucose monitoring glucose measurement parameters and A1C, there is still not enough evidence to replace one parameter with another.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_35876223",
+    "title": "Evaluation of continuous glucose monitoring-derived person-specific HbA1c in the presence and absence of complications in type 1 diabetes.",
+    "authors": [
+      "Yongjin Xu",
+      "Philippe Oriot",
+      "Timothy C Dunn",
+      "Michel P Hermans",
+      "Yashesvini Ram",
+      "Alan Cheng",
+      "Ramzi A Ajjan"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "35876223",
+    "doi": "10.1111/dom.14824",
+    "journal": "Diabetes, obesity & metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35876223/",
+    "text": "AIM: To evaluate the accuracy of a novel kinetic model at predicting HbA1c in a real-world setting and to understand and explore the role of diabetes complications in altering the glucose-HbA1c relationship and the mechanisms involved.\nMATERIALS AND METHODS: Deidentified HbA1c and continuous glucose monitoring values were collected from 93 individuals with type 1 diabetes. Person-specific kinetic variables were used, including red blood cell (RBC) glucose uptake and lifespan, to characterize the relationship between glucose levels and HbA1c. The resulting calculated HbA1c (cHbA1c) was compared with glucose management indicator (GMI) for prospective agreement with laboratory HbA1c.\nRESULTS: The cohort (42 men and 51 women) had a median age (IQR) of 61 (43, 72) years and a diabetes duration of 21 (10, 33) years. A total of 24\u2009459\u2009days of continuous glucose monitoring (CGM) data were available and 357 laboratory HbA1c were used to assess the average glucose-HbA1c relationship. cHbA1c had a superior correlation with laboratory HbA1c compared with GMI with a mean absolute deviation of 1.7 and 6.7\u2009mmol/mol, r2 \u00a0=\u00a00.85 and 0.44, respectively. The fraction within 10% of absolute relative deviation from laboratory HbA1c was 93% for cHbA1c and 63% for GMI. Macrovascular disease had no effect on the model's accuracy, whereas microvascular complications resulted in a trend towards higher HbA1c, secondary to increased RBC glucose uptake.\nCONCLUSIONS: cHbA1c, which takes into account RBC glucose uptake and lifespan, accurately reflects laboratory HbA1c in a real-world setting and can aid in the management of individuals with diabetes.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_32657728",
+    "title": "Correlation between self-monitored mean blood glucose and average plasma glucose estimated from glycated haemoglobin in patients attending the diabetes clinic at Dr George Mukhari Academic Hospital, Pretoria, South Africa.",
+    "authors": [
+      "M K Nkoana",
+      "A A Khine"
+    ],
+    "year": 2020,
+    "source": "PubMed",
+    "pmid": "32657728",
+    "doi": "10.7196/SAMJ.2020.v110i5.13959",
+    "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32657728/",
+    "text": "BACKGROUND: Glycated haemoglobin (HbA1c) has been used for decades as a measure of chronic glycaemia. A simple linear relationship between HbA1c values and mean blood glucose (MBG) has been identified and led to conversion of HbA1c values into estimated average glucose (eAG) levels, following the findings of the A1c-Derived Average Glucose (ADAG) Study Group. The intention was to help patients with diabetes mellitus (DM) understand their glycaemic control better, as eAG is reported in the same units as self-monitored glucose levels. However, factors other than glycaemia have been found to affect the relationship between HbA1c and MBG.\nOBJECTIVES: To: (i) determine the relationship between self-monitored MBG levels and HbA1c values; and (ii) evaluate the correlation between MBG levels and eAG levels calculated from HbA1c values using the regression equation derived from the ADAG Study Group in black South African patients with DM.\nMETHODS: This was a prospective observational study of 96 diabetic patients. MBG levels were calculated using glucose measurements downloaded from the glucose meters for the previous 90 days (3 months). High-performance liquid chromatography was used for measurement of HbA1c values, collected at the end of 3 months. eAG was calculated using the regression equation from the ADAG Study Group, as follows: eAG (mmol/L) = 1.5944 \u00d7 HbA1c (NGSP, %) - 2.594.\nRESULTS: A positive correlation was found between MBG and HbA1c in all participants (R2=0.69, p&lt;0.0001). There was a wide range of MBG levels for any given HbA1c value. Clinically significant differences between MBG and eAG were found, with a \u226510% difference in 65.6% of the participants. eAG overestimated MBG in ~71.8% of the study population, with an overestimation of \u22651.6 mmol/L (28.7 mg/dL, equivalent to a 1% change in HbA1c value) in ~50% of the total study population.\nCONCLUSIONS: Our findings showed an imperfect relationship between MBG levels and HbA1c values. eAG significantly overestimated MBG, and this disagreement may cause confusion among both patients and clinicians. The risk of hypoglycaemic episodes may also increase if HbA1c and eAG alone are used to intensify therapy. We recommend that the use of eAG should be validated prior to implementation in clinical practice. It would be ideal to evaluate the relationship between average glucose and HbA1c in each individual patient in order to provide more personalised diabetes care.",
+    "query_topic": "blood_glucose_monitoring"
+  },
+  {
+    "document_id": "pmid_18619176",
+    "title": "Self-monitoring of blood glucose and treatment outcomes in type 2 diabetic patients.",
+    "authors": [
+      "Agnieszka Bajkowska-Fiedziukiewicz",
+      "Katarzyna Cypryk",
+      "Tomasz Kozdraj",
+      "Anna Miko\u0142ajczyk-Swatko",
+      "Marcin Kosi\u0144ski",
+      "Ma\u0142gorzata J\u00f3zefowska"
+    ],
+    "year": 2008,
+    "source": "PubMed",
+    "pmid": "18619176",
+    "doi": null,
+    "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18619176/",
+    "text": "OBJECTIVES: The aim of the study was to evaluate an association between the frequency of blood glucose self-monitoring (SMBG) and glycemic control assessed by glycated hemoglobin (HbA1C) levels.\nPATIENTS AND METHODS: A group of 600 type 2 diabetic patients aged 63.4 +/- 9 years (32 to 85 years) and with a mean diabetes duration of 11.4 +/- 7.7 years (min. 1 year, max. 38 years) were asked to perform weekly blood glucose self-monitoring with an 8-point glucose profile on a chosen day. They were also asked to declare their self-monitoring frequency. HbA1C levels were measured in all the patients.\nRESULTS: Most of the patients reported that they performed their SMBG 1-2 times a day (44.3%) or 1-2 times a week (31.8%). All of them measured their blood glucose after an overnight fast and after breakfast. Most patients performed their measurements also after lunch and dinner. Less than 50% of patients did their measurements at night-time. The mean HbA1C level was 7.45 +/- 1.08%. Only 20% of patients achieved metabolic control of diabetes recommended by the Polish Diabetic Society (HbA1C < 6.5%). No severe hypoglycemia episodes were obsered. Glycated hemoglobin levels did not differ between the SMBG frequency groups. There was no correlation between HbA1C levels and the frequency of self-monitoring in any group.\nCONCLUSIONS: There was no correlation between the frequency of SMBG and HbA1C, which questions the need for multiple daily measurements of blood glucose in all type 2 diabetic patients.",
+    "query_topic": "blood_glucose_monitoring"
+  }
+]

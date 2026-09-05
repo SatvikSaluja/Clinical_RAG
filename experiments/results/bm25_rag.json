@@ -1,0 +1,376 @@
+{
+  "label": "bm25_rag",
+  "config": {
+    "use_bm25": true,
+    "use_dense": false,
+    "use_reranker": false,
+    "use_patient_context": true,
+    "use_verification": true,
+    "hybrid_alpha": null,
+    "rerank_top_k": null,
+    "bm25_candidate_k": null,
+    "dense_candidate_k": null,
+    "reliability_gate_mode": null,
+    "label": "bm25_rag"
+  },
+  "per_item": [
+    {
+      "item_id": "bm_01",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 4
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 4,
+        "total": 4
+      },
+      "latency_retrieval_s": 0.6848068237304688,
+      "latency_generation_s": 56.534013748168945,
+      "latency_verification_s": 0.00037932395935058594,
+      "wall_time_s": 57.22046995162964,
+      "num_claims": 4,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_02",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 3
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 4
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 4,
+        "total": 4
+      },
+      "latency_retrieval_s": 0.5770177841186523,
+      "latency_generation_s": 57.18327069282532,
+      "latency_verification_s": 4.7616589069366455,
+      "wall_time_s": 62.52286648750305,
+      "num_claims": 4,
+      "num_citations_total": 3
+    },
+    {
+      "item_id": "bm_03",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 6
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 6,
+        "total": 6
+      },
+      "latency_retrieval_s": 0.6117367744445801,
+      "latency_generation_s": 65.05081129074097,
+      "latency_verification_s": 0.000286102294921875,
+      "wall_time_s": 65.66322231292725,
+      "num_claims": 6,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_04",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 5
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 5,
+        "total": 5
+      },
+      "latency_retrieval_s": 0.6445322036743164,
+      "latency_generation_s": 69.12380051612854,
+      "latency_verification_s": 0.0002429485321044922,
+      "wall_time_s": 69.76895499229431,
+      "num_claims": 5,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_05",
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 2
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 5
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 5,
+        "total": 5
+      },
+      "latency_retrieval_s": 0.9122211933135986,
+      "latency_generation_s": 51.13455629348755,
+      "latency_verification_s": 6.4130353927612305,
+      "wall_time_s": 58.46074414253235,
+      "num_claims": 5,
+      "num_citations_total": 2
+    },
+    {
+      "item_id": "bm_06",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 1,
+        "total": 2
+      },
+      "supported_claim_counts": {
+        "supported": 1,
+        "total": 13
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 12,
+        "total": 13
+      },
+      "latency_retrieval_s": 0.6215498447418213,
+      "latency_generation_s": 134.8615961074829,
+      "latency_verification_s": 11.644655227661133,
+      "wall_time_s": 147.12845158576965,
+      "num_claims": 13,
+      "num_citations_total": 2
+    },
+    {
+      "item_id": "bm_07",
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 7
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 7,
+        "total": 7
+      },
+      "latency_retrieval_s": 1.0011751651763916,
+      "latency_generation_s": 99.63541913032532,
+      "latency_verification_s": 0.0054912567138671875,
+      "wall_time_s": 100.64252185821533,
+      "num_claims": 7,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_08",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 14
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 14,
+        "total": 14
+      },
+      "latency_retrieval_s": 0.5069427490234375,
+      "latency_generation_s": 169.56427574157715,
+      "latency_verification_s": 0.00035691261291503906,
+      "wall_time_s": 170.07190465927124,
+      "num_claims": 14,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_09",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 4
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 4,
+        "total": 4
+      },
+      "latency_retrieval_s": 0.6278491020202637,
+      "latency_generation_s": 62.304014682769775,
+      "latency_verification_s": 0.0004067420959472656,
+      "wall_time_s": 62.932974338531494,
+      "num_claims": 4,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_10",
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "citation_accuracy_counts": {
+        "supported": 4,
+        "total": 4
+      },
+      "supported_claim_counts": {
+        "supported": 1,
+        "total": 5
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 4,
+        "total": 5
+      },
+      "latency_retrieval_s": 0.6115226745605469,
+      "latency_generation_s": 69.62152552604675,
+      "latency_verification_s": 8.280664443969727,
+      "wall_time_s": 78.51411652565002,
+      "num_claims": 5,
+      "num_citations_total": 4
+    },
+    {
+      "item_id": "bm_11",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 5
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 5,
+        "total": 5
+      },
+      "latency_retrieval_s": 0.5856294631958008,
+      "latency_generation_s": 68.46514987945557,
+      "latency_verification_s": 0.00019097328186035156,
+      "wall_time_s": 69.05119705200195,
+      "num_claims": 5,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_12",
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 1
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 3
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 3,
+        "total": 3
+      },
+      "latency_retrieval_s": 0.5786805152893066,
+      "latency_generation_s": 101.3311517238617,
+      "latency_verification_s": 5.343678712844849,
+      "wall_time_s": 107.25388836860657,
+      "num_claims": 3,
+      "num_citations_total": 1
+    },
+    {
+      "item_id": "bm_13",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 0
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 5
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 5,
+        "total": 5
+      },
+      "latency_retrieval_s": 0.6128017902374268,
+      "latency_generation_s": 74.28493213653564,
+      "latency_verification_s": 0.00030732154846191406,
+      "wall_time_s": 74.89839386940002,
+      "num_claims": 5,
+      "num_citations_total": 0
+    },
+    {
+      "item_id": "bm_14",
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "citation_accuracy_counts": {
+        "supported": 0,
+        "total": 2
+      },
+      "supported_claim_counts": {
+        "supported": 0,
+        "total": 4
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 4,
+        "total": 4
+      },
+      "latency_retrieval_s": 0.6128156185150146,
+      "latency_generation_s": 50.68475699424744,
+      "latency_verification_s": 4.882083892822266,
+      "wall_time_s": 56.180164098739624,
+      "num_claims": 4,
+      "num_citations_total": 2
+    },
+    {
+      "item_id": "bm_15",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "citation_accuracy_counts": {
+        "supported": 4,
+        "total": 4
+      },
+      "supported_claim_counts": {
+        "supported": 1,
+        "total": 1
+      },
+      "hallucination_counts": {
+        "unsupported_or_contradicted": 0,
+        "total": 1
+      },
+      "latency_retrieval_s": 0.5159499645233154,
+      "latency_generation_s": 37.423267126083374,
+      "latency_verification_s": 12.434373617172241,
+      "wall_time_s": 50.374027252197266,
+      "num_claims": 1,
+      "num_citations_total": 4
+    }
+  ],
+  "summary": {
+    "num_queries": 15,
+    "recall_at_5": 0.16666666666666666,
+    "recall_at_10": 0.16666666666666666,
+    "citation_accuracy": 0.5,
+    "supported_claim_rate": 0.03529411764705882,
+    "hallucination_rate": 0.9647058823529412,
+    "avg_latency_retrieval_s": 0.6470154444376628,
+    "avg_latency_generation_s": 77.81350277264913,
+    "avg_latency_verification_s": 3.5845207850138348,
+    "total_citations": 18,
+    "total_claims": 85
+  }
+}

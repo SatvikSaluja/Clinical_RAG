@@ -1,0 +1,29 @@
+# Optional, best-effort containerized run. The primary documented path
+# (see README.md) is a local Python venv + `npm run dev`, which is what was
+# actually used to build and evaluate this system. This compose file is
+# provided per the project-structure spec but has not been the focus of
+# testing in this environment.
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+    env_file:
+      - .env
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../Dockerfile.frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_PROXY_TARGET=http://backend:8000

@@ -1,0 +1,423 @@
+[
+  {
+    "document_id": "pmid_28816538",
+    "title": "THYROID AND AGING.",
+    "authors": [
+      "Sina Jasim",
+      "Hossein Gharib"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "28816538",
+    "doi": "10.4158/EP171796.RA",
+    "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28816538/",
+    "text": "OBJECTIVE: Review physiologic thyroid function changes with aging and emphasize careful interpretation of tests in the aging population.\nMETHODS: Literature review.\nRESULTS: Using age-specific thyroid-stimulating hormone (TSH) reference ranges should minimize or avoid the unnecessary diagnosis of thyroid disease in elderly patients. Subclinical thyroid dysfunction and abnormal TSH with normal thyroid levels may improve with time, so careful monitoring of thyroid function is recommended. Overt thyroid disease should always be treated.\nCONCLUSION: Clinical judgement is always warranted to decide how and when to treat subclinical thyroid disease in the elderly.\nABBREVIATIONS: FT4 = free thyroxine; rT3 = reverse triiodothyronine; T3 = triiodothyronine; T4 = thyroxine; TFT = thyroid function test; TSH = thyroid-stimulating hormone.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_32863110",
+    "title": "Interpretation of thyroid function tests during pregnancy.",
+    "authors": [
+      "W Edward Visser",
+      "Robin P Peeters"
+    ],
+    "year": 2020,
+    "source": "PubMed",
+    "pmid": "32863110",
+    "doi": "10.1016/j.beem.2020.101431",
+    "journal": "Best practice & research. Clinical endocrinology & metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32863110/",
+    "text": "Thyroid hormones are crucial for normal pregnancy and fetal development. Large physiological changes occur during pregnancy, posing challenges for the correct interpretation of thyroid function tests. TSH concentrations are the principal first test to rule out thyroid disease taking into account trimester-specific reference ranges. Free T4 (FT4) measurements by immuno-assays may be subject to interference by endogenous and exogenous factors. The relevance of measuring free T3 (FT3) during pregnancy is unclear. Thyroid autoimmunity is well-reflected by the presence of antibodies against TPO. TPO-antibody positivity is associated with an increased risk of adverse pregnancy outcomes.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_40609565",
+    "title": "Association of gestational thyroid function and thyroid autoimmunity with gestational diabetes: a systematic review and individual participant meta-analysis.",
+    "authors": [
+      "Joris A J Osinga",
+      "Arash Derakhshan",
+      "Marianna Karachaliou",
+      "Kris G Poppe",
+      "Leonie Warringa",
+      "Koen Verdonk",
+      "Bijay Vaidya",
+      "Tuija M\u00e4nnist\u00f6",
+      "Abel L\u00f3pez-Bermejo",
+      "Judit Bassols",
+      "Maarten A C Broeren",
+      "Suzanne J Brown",
+      "Richard Christian Jensen",
+      "Polina V Popova",
+      "Victor J M Pop",
+      "Ulla Feldt-Rasmussen",
+      "Ashraf Aminorroaya",
+      "Sofie Bliddal",
+      "Lorena Mosso",
+      "Lida Chatzi",
+      "Laura Boucai",
+      "Sachiko Itoh",
+      "Reiko Kishi",
+      "Pierre Kleynen",
+      "Ghalia Ashoor",
+      "Emily Oken",
+      "Elena N Grineva",
+      "Xuemian Lu",
+      "Aitana Lertxundi",
+      "Mario Murcia",
+      "Sabrina T G Meertens-Gunput",
+      "Marisa Rebagliato",
+      "Isolina Ria\u00f1o-Gal\u00e1n",
+      "Amaia Irizar",
+      "Martine Vrijheid",
+      "Ana Fern\u00e1ndez-Somoano",
+      "Eila Suvanto",
+      "M\u00f2nica Guxens",
+      "Vasiliki Daraki",
+      "Chantal Mathieu",
+      "Maryam Kianpour",
+      "Dorte Glintborg",
+      "Tina Kold Jensen",
+      "Erik Alexander",
+      "Layal Chaker",
+      "Fergal Malone",
+      "Geralyn Messerlian",
+      "Andrew Hattersley",
+      "Kim G Harley",
+      "Elizabeth N Pearce",
+      "W Edward Visser",
+      "Tanja G M Vrijkotte",
+      "Robin P Peeters",
+      "Glenn E Palomaki",
+      "William Lowe",
+      "Brenda Eskenazi",
+      "Liang-Miao Chen",
+      "John P Walsh",
+      "Kypros H Nicolaides",
+      "David M Carty",
+      "Christian Delles",
+      "Fang-Biao Tao",
+      "Kun Huang",
+      "Spyridoula Maraka",
+      "Mary E D'Alton",
+      "Rebecca C Painter",
+      "Marianne Skovsager Andersen",
+      "Katrien Benhalima",
+      "Tim I M Korevaar"
+    ],
+    "year": 2025,
+    "source": "PubMed",
+    "pmid": "40609565",
+    "doi": "10.1016/S2213-8587(25)00068-3",
+    "journal": "The lancet. Diabetes & endocrinology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40609565/",
+    "text": "BACKGROUND: Pregnancy is a state of increased metabolic demand that necessitates major changes in endocrine physiology. Gestational thyroid dysfunction and gestational diabetes are common endocrine conditions of pregnancy that frequently coincide. Although the effects of thyroid hormones on glucose metabolism are well documented, important knowledge gaps remain in terms of the extent and clinical relevance of these effects during pregnancy. The aim of this meta-analysis is to assess the association of thyroid function test results with gestational diabetes and markers of glucose metabolism.\nMETHODS: In this systematic review and individual participant data meta-analysis, we searched Ovid MEDLINE, EMBASE, and Web of Science from database inception to Dec 12, 2024, for prospective population-based cohort studies with individual patient data on thyroid function, gestational diabetes, and measures of glucose homoeostasis during pregnancy. Furthermore, open invitations to join the Consortium on Thyroid and Pregnancy were issued to identify unpublished datasets. We excluded participants with multiple pregnancies; pre-existing thyroid disease or diabetes; current use of medications that could affect thyroid or glucose levels; or a history of infertility treatment, miscarriage, or stillbirth. Exposures were maternal gestational concentrations of thyroid-stimulating hormone (TSH), free T4 (FT4), free T3 (FT3), and total T3; thyroperoxidase antibody positivity; thyroglobulin antibody positivity; and thyroid disease entities (ie, subclinical hypothyroidism, overt and subclinical hyperthyroidism, and isolated hypothyroxinaemia), which were defined according to current guidelines. The primary outcome was presence of gestational diabetes as defined in individual cohorts. Individual participant data were analysed using generalised linear mixed-effects regression models adjusting for maternal age, BMI, smoking status, parity, ethnicity, fetal sex, and gestational age at blood sampling. We preregistered our study protocol with PROSPERO (CRD42022371927).\nFINDINGS: We identified 638 published studies with our systematic search, of which 21 studies based on 17 cohorts met inclusion criteria; 11 of these prospective cohort studies provided individual participant data, and data from an additional 14 cohorts were added via personal contacts and open invitations, resulting in a study population of 63\u2008548 participants from 25 cohorts after exclusions. Of the 52\u2008632 participants in 17 cohorts with TPOAb measurements available to define thyroid disease entities, 1687 (3\u00b72%) of these participants had subclinical hypothyroidism, 1153 (2\u00b72%) had isolated hypothyroxinaemia, and 2958 (4\u00b77%) had gestational diabetes. Compared with euthyroidism, isolated hypothyroxinaemia was associated with a higher risk of gestational diabetes (absolute risk 6\u00b75% [72 of 1113] for isolated hypothyroxinaemia vs 3\u00b75% [1555 of 44\u2008787] for euthyroidism; adjusted odds ratio [aOR] 1\u00b752 [95% CI 1\u00b717-1\u00b798], p=0\u00b70017; 45\u2008900 participants). A lower FT4 concentration was associated with a higher risk of gestational diabetes (non-linear, p<0\u00b70001). A higher risk of gestational diabetes was found both with a higher FT3 concentration (aOR 1\u00b718 [95%CI 1\u00b710-1\u00b728], p<0\u00b70001) and with a higher FT3-to-FT4 ratio (non-linear; p<0\u00b70001). No evidence was found of associations of TSH, thyroid antibodies, or other thyroid function test abnormalities with gestational diabetes. I2 statistics for the primary analyses ranged from 0-43%, indicating low to moderate heterogeneity. The funnel plot for overt hyperthyroidism indicated a possibility for publication bias (p=0\u00b7049), but funnel plots for all other variables did not.\nINTERPRETATION: A lower FT4 concentration and isolated hypothyroxinaemia during pregnancy are associated with a higher risk of gestational diabetes. Our results challenge the long-standing notion that subclinical hypothyroidism or thyroid autoimmunity are risk factors for gestational diabetes and support both the risk profile for gestational thyroid dysfunction and ongoing efforts on optimisation of treatment targets for pregnant people taking levothyroxine. Follow-up studies are required to establish to what extent levothyroxine initiation or dose adjustments can affect insulin resistance and antihyperglycaemic therapies during pregnancy.\nFUNDING: The Netherlands Organization for Scientific Research, ZonMw, and the EU Horizon 2020 Program.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_10771809",
+    "title": "Thyroid function tests and their interpretation.",
+    "authors": [
+      "R A Christenson"
+    ],
+    "year": 1997,
+    "source": "PubMed",
+    "pmid": "10771809",
+    "doi": "10.1007/BF02795772",
+    "journal": "Indian journal of pediatrics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10771809/",
+    "text": "For general screening of children who are in fairly good health and in whom CNS or pituitary disease is not strongly suspected, the newer THS assays are very useful in assessing the action of both endogenous and exogenous thyroid hormone. Those children in whom primary hypothyroidism is strongly suspected or who are already on thyroid hormone supplementation, the free T4 assay provides a useful adjunct to the TSH. If Grave's disease or factious hyperthyroidism is suspected, the total T3 assay is a useful adjunct to the TSH and the free T4. The screening of possible hypothyroidism as a result of hypothalamic or pituitary disease, the free T4 is relied on heavily, along with the response of TSH to TRH stimulation. Measurement of the nocturnal TSH surge may also be useful in this situation.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_35235282",
+    "title": "Thyroid and Parathyroid Conditions: Hypothyroidism.",
+    "authors": [
+      "Natalie Christian",
+      "Morgan Adams Rhodes",
+      "Cristin Swords Adams",
+      "Scott Bragg"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "35235282",
+    "doi": null,
+    "journal": "FP essentials",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35235282/",
+    "text": "Hypothyroidism is caused by deficient thyroid hormone production secondary to autoimmune disease or insufficient iodine consumption or as a complication of hyperthyroidism management. Signs and symptoms include fatigue, weight gain, dry skin, constipation, and cold intolerance. The U.S. Preventive Services Task Force found insufficient evidence to recommend for or against screening for hypothyroidism, but some organizations support screening in special populations. If hypothyroidism is suspected, initial laboratory evaluation consists of a serum thyrotropin (TSH) measurement with reflex testing of free thyroxine (T4). Thyroid function tests must be interpreted carefully because acute illness, diet, and drugs may alter values. Overt hypothyroidism occurs when a patient has an elevated TSH level and a low free T4 level with symptoms of hypothyroidism. Management includes thyroid hormone replacement, ideally levothyroxine. Subclinical hypothyroidism is characterized by an elevated TSH level with a normal T4 value. The decision to treat subclinical hypothyroidism should be based on patient characteristics and shared decision-making discussions. Special consideration should be taken in treating patients with high-risk conditions, including heart disease, pregnancy, and myxedema coma, and in patients requiring high-dose levothyroxine. Thyroid hormone should be titrated based on goal TSH values, symptoms, and potential treatment adverse effects.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_6407516",
+    "title": "Interpretation of in-vitro thyroid function tests during pregnancy.",
+    "authors": [
+      "S C Smith",
+      "A M Bold"
+    ],
+    "year": 1983,
+    "source": "PubMed",
+    "pmid": "6407516",
+    "doi": "10.1111/j.1471-0528.1983.tb08962.x",
+    "journal": "British journal of obstetrics and gynaecology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6407516/",
+    "text": "In-vitro thyroid function tests are difficult to interpret in pregnancy because of, among other things, the effect of oestrogens on thyroid binding globulin (TBG) concentrations. In an attempt to clarify the position, serum concentrations of total thyroxine (T4), free T4, TBG, T4/TBG ratio, tri-iodothyronine (T3) and thyroid stimulating hormone (TSH) were measured. Total T4 and TBG concentrations rose to above the non-pregnant reference range by 20 weeks. The T4/TBG ratio fell to hypo-thyroid values by 20 weeks but although the free T4 level was lower in the third trimester compared with values in the first and second trimesters, only a few subjects had hypothyroid values. The TSH values remained unchanged throughout pregnancy. The significance of these changes is discussed and reference ranges for these hormones at each trimester are provided.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_6426859",
+    "title": "Thyroid function tests in thyroid and nonthyroid disease.",
+    "authors": [
+      "T D Trainer",
+      "P L Howard"
+    ],
+    "year": 1983,
+    "source": "PubMed",
+    "pmid": "6426859",
+    "doi": "10.3109/10408368309165761",
+    "journal": "Critical reviews in clinical laboratory sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6426859/",
+    "text": "Modern day evaluation of thyroid disorders requires a combination of accurate clinical judgement and reliable, sensitive, and specific thyroid functions tests. Principle among the latter are thyroxine (T4) 3, 5, 3'-triiodothyronine (T3), and thyroid-stimulating hormone (TSH). Also playing an important role in special situations are free thyroxine, an assessment of bound and unbound thyroid-binding globulin, TRH stimulation, long-acting thyroid stimulator (LATS), antibodies to thyroid hormone and to thyroid receptors. Basic to interpretation of these tests in the clinical setting is a comprehension of the relationship of the hypothalamus, the pituitary, and the thyroid gland as well as a knowledge of the peripheral metabolism of thyroxine and triiodothyronine. The role of each of these laboratory tests in the evaluation of hyper- and hypometabolic states, their alteration in nonthyroid and other endocrine disorders, and the effects of environmental and physiological factors on these tests are reviewed.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_32418870",
+    "title": "The \"slightly\" abnormal thyroid test: What is the pediatrician to do?",
+    "authors": [
+      "Eric Gyuricsko"
+    ],
+    "year": 2020,
+    "source": "PubMed",
+    "pmid": "32418870",
+    "doi": "10.1016/j.cppeds.2020.100770",
+    "journal": "Current problems in pediatric and adolescent health care",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32418870/",
+    "text": "Thyroid disorders are common in pediatrics. Tests of thyroid function are widely available and frequently ordered in the pediatric healthcare setting. This is sometimes driven by common signs or symptoms of thyroid disease. All too often, it is driven by patients and their parents requesting thyroid tests for nonspecific symptoms, such as fatigue, obesity or family history of thyroid disease. The decision to order thyroid tests, as well as which test(s) of thyroid function to order, deserves careful thought rather than a reflexive \"thyroid panel\" for every patient. Thyroid stimulating hormone (TSH) is the single most appropriate test of thyroid function when screening a pediatric or adolescent for thyroid disorders. Adding more tests only increases the likelihood that a minor (and often insignificant) abnormality will be found. These incidental abnormalities can create anxiety for the parent and child, and usually results in additional testing, referral to a pediatric endocrinologist, and further expense. This review will aim to guide the pediatric primary care provider on the choice of appropriate screening test(s) for acquired thyroid dysfunction in children and adolescents, as well as the proper interpretation of the test(s). Emphasis will be placed on the \"slightly\" abnormal thyroid screening test. Specific thyroid tests to be reviewed include TSH, (free) T4, (free) T3, and thyroid antibodies. Finally, this review will aim to guide decisions on follow-up, additional testing, and reasons for referral to a pediatric endocrinologist. Congenital hypothyroidism, including abnormalities on state newborn screening, will not be discussed.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_41818104",
+    "title": "Thyrotropin Controversy in Subclinical Thyroid Disorders.",
+    "authors": [
+      "Rajesh Agrawal"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "pmid": "41818104",
+    "doi": "10.59556/japi.74.1442",
+    "journal": "The Journal of the Association of Physicians of India",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41818104/",
+    "text": "AIM: The thyrotropin controversy in subclinical thyroid disorders (STDs) is among the most common endocrine disorders globally. In India, approximately 42 million people suffer from thyroid disorders, with subclinical hypothyroidism (SCH) affecting about 9.4% of the population. SCH is more prevalent in females (11.4%) compared to males (6.2%).\nDISCUSSION: The diagnosis and treatment of SCH and subclinical hyperthyroidism (SHT) are controversial. SCH is often diagnosed based on biochemical markers, as patients may be asymptomatic or exhibit vague symptoms. Thyrotropin (TSH) levels may be elevated or decreased, while triiodothyronine (T3) and thyroxine (T4) remain within the normal reference range or near the lower or upper limits. STDs refers to an abnormal TSH with normal thyroxine (FT4) and free triiodothyronine (FT3) levels. It includes STDs and individuals at high risk for disease progression or adverse outcomes, with unclear prognosis. Progression of SCH to overt hypothyroidism depends on initial serum TSH levels, thyroid peroxidase antibodies (TPO), family history of thyroid disorders, previous radiation, and smoking. Controversies surround SCH and its association with cardiovascular diseases (CVD), pregnancy outcomes, neuropsychiatric issues, metabolic syndrome, dyslipidemia, and diabetes. Assay interference is a problem in interpreting thyroid function tests (TFTs), occurring in 1% of cases. The health package investigation systems often overlooks the impact of drug intake and assay interference. Various methods for measuring TFTs, such as radioimmunoassay, immunometric assay, and ELISA, differ in sensitivity, specificity, and standardization, leading to methodological variability. Common causes of assay interference include human antimurine antibodies (HAMA), thyroid hormone autoantibodies (THAAbs), rheumatoid factor, antistreptavidin, and antiruthenium antibodies. When diagnosing SCH, it is crucial to rule out other causes of elevated TSH, such as autoantibodies, goiter, and rare conditions such as thyroid hormone resistance (THR), diagnosed by serum glycoprotein alpha subunit (\u03b1-GSU) and family history. Biotin, a common supplement, can affect TFT assays, leading to spurious results. It can cause falsely high T4 and T3 levels and low TSH, leading to misdiagnosis of SCH.\nCONCLUSION AND RECOMMENDATIONS: The timing of TFTs, whether fasting, postprandial, or random, remains a debated issue. Assay interference and biotin intake should be considered when analyzing TFTs. The role of iodine and iodine supplementation during pregnancy and its impact on STDs are not yet fully conceptualized. Large randomized clinical and epidemiological studies are needed to establish a consensus on the diagnostic threshold for TSH. These studies should include diverse populations and medical conditions to improve our understanding of the disease and patient outcomes. In practice, avoid rushing to treat elevated TSH levels between 4 and 10 mIU/L or low TSH between 0.5 and 0.1 mIU/L without confirming the diagnosis with additional tests (T3, T4, FT4, FT3, and TPO). TSH alone should not be the sole decision-maker; consider other TFTs and sequential testing from the same laboratory and time to make more informed decisions. While TSH levels can be affected by time and prandial state, FT3 and FT4 levels remain stable, suggesting all three TFTs may aid in accurate diagnosis and treatment decisions.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_3596465",
+    "title": "Pitfalls in the interpretation of thyroid function tests in old age and non-thyroidal illness.",
+    "authors": [
+      "G Hennemann",
+      "E P Krenning"
+    ],
+    "year": 1987,
+    "source": "PubMed",
+    "pmid": "3596465",
+    "doi": "10.1159/000180688",
+    "journal": "Hormone research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3596465/",
+    "text": "In hyperthyroidism, measurement of the serum thyroxine (T4) index or free concentration often suffices to establish the diagnosis. In hyperthyroidism, including 3,3',5-triiodothyronine (T3) toxicosis, thyrotrophin (TSH) response to thyrotrophin-releasing hormone (TRH) is blunted. Sensitive measurement of serum TSH may in the future be the first-line screening test not only for primary hypothyroidism but also for hyperthyroidism. In non-thyroidal illness serum T4, reverse T3 and T3 levels change in relation to severity of disease. In mild disease, T4 is initially increases as the severity of the non-thyroidal illness increases. Reverse T3 increases and serum T3 decreases when the patients become more ill. Serum TSH response to TRH is often blunted. In old age similar changes in serum iodothyronine concentrations may take place, probably related to existing non-thyroidal illness. Also many drugs may have different effects on serum parameters of thyroid function. In acute psychiatric diseases increased serum total and free T4 levels and a blunted TRH test may be encountered.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_33928365",
+    "title": "Evaluation of Thyroid Function in Pregnant Women Using Automated Immunoassays.",
+    "authors": [
+      "K Aaron Geno",
+      "Matthew S Reed",
+      "Mark A Cervinski",
+      "Robert D Nerenz"
+    ],
+    "year": 2021,
+    "source": "PubMed",
+    "pmid": "33928365",
+    "doi": "10.1093/clinchem/hvab009",
+    "journal": "Clinical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33928365/",
+    "text": "INTRODUCTION: Automated free thyroxine (FT4) immunoassays are widely available, but professional guidelines discourage their use in pregnant women due to theoretical under-recoveries attributed to increased thyroid hormone binding capacity and instead advocate the use of total T4 (TT4) or free thyroxine index (FTI). The impact of this recommendation on the classification of thyroid status in apparently euthyroid pregnant patients was evaluated.\nMETHODS: After excluding specimens with thyroid autoantibody concentrations above reference limits, thyroid-stimulating hormone (TSH), FT4, TT4, and T-uptake were measured on the Roche Cobas\u00ae platform in remnant clinical specimens from at least 147 nonpregnant women of childbearing age and pregnant women at each trimester. Split-sample comparisons of FT4 as measured by the Cobas and equilibrium dialysis were performed.\nRESULTS: FT4 decreased with advancing gestational age by both immunoassay and equilibrium dialysis. TSH declined during the first trimester, remained constant in the second, and increased throughout the third, peaking just before delivery. Interpretation of TT4 concentrations using 1.5-times the nonpregnant reference interval classified 13.6% of first trimester specimens below the lower reference limit despite TSH concentrations within trimester-specific reference intervals. Five FTI results from 480 pregnant individuals (about 1.0%) fell outside the manufacturer's reference interval.\nCONCLUSIONS: Indirect FT4 immunoassay results interpreted in the context of trimester-specific reference intervals provide a practical and viable alternative to TT4 or FTI. Declining FT4 and increasing TSH concentrations near term suggest that declining FT4 is not an analytical artifact but represents a true physiological change in preparation for labor and delivery.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_37699235",
+    "title": "The Association Between Hypoxic-Ischemic Encephalopathy and Thyroid Hormones.",
+    "authors": [
+      "Asli Okbay Gunes",
+      "Aydin Bozkaya"
+    ],
+    "year": 2024,
+    "source": "PubMed",
+    "pmid": "37699235",
+    "doi": "10.1089/ther.2023.0046",
+    "journal": "Therapeutic hypothermia and temperature management",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37699235/",
+    "text": "We aimed to compare serum thyroid-stimulating hormone (TSH) and free thyroxine (fT4) levels in neonates with different hypoxic-ischemic encephalopathy (HIE) stages undergoing therapeutic hypothermia (TH), and to evaluate the TSH and fT4 levels in neonates with HIE/TH in comparison with a control group. This was a retrospective study conducted between January 2020 and December 2022. The neonates with HIE/TH constituted the study group and the neonates with transient tachypnea of the newborn (TTN) constituted the control group. The study group consisted of neonates with stage 2 and stage 3 HIE. Serum TSH and fT4 levels measured at postnatal fifth day were compared between the groups. Of the 202 (47.1%) neonates included in the study group, 144 (71.3%) had stage 2 HIE and 58 (28.7%) had stage 3 HIE. In the control group, there were 227 (52.9%) newborns. Serum TSH and fT4 levels were found to be lower in the newborns with stage 3 HIE compared with those with stage 2 HIE (p\u2009=\u20090.015, 0.002, respectively). Although the serum TSH level was higher in the newborns with HIE compared with the newborns with TTN, serum fT4 levels did not change between the groups (p\u2009=\u2009< 0.001, 0.14, respectively). When we made the analysis according to the reference intervals, HIE/TH was associated with higher rates of TSH elevation compared with TTN, and the difference was more pronounced in stage 2 HIE/TH (p\u2009<\u20090.001). Although stage 3 HIE/TH was significantly associated with higher rates of low fT4 compared with TTN (p\u2009=\u20090.006), this relationship was not significant between stage 2 HIE/TH and TTN. It would be reasonable to interpret thyroid function tests performed on the fifth day with caution in newborns with HIE/TH, because higher TSH and lower fT4 levels on the fifth day in this patient group may result in unnecessary repetition of tests.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_30191443",
+    "title": "Interactions between hypothalamic pituitary thyroid axis and other pituitary dysfunctions.",
+    "authors": [
+      "Ulla Feldt-Rasmussen",
+      "Marianne Klose",
+      "Salvatore Benvenga"
+    ],
+    "year": 2018,
+    "source": "PubMed",
+    "pmid": "30191443",
+    "doi": "10.1007/s12020-018-1738-6",
+    "journal": "Endocrine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30191443/",
+    "text": "Central hypothyroidism is defined as low circulating free thyroxine (free T4) with inappropriately low circulating thyrotropin (TSH), in context of a hypothalamic pituitary pathology. Rare cases of idiopathic central hypothyroidism caused by a functional defect may occur, and the condition is often overlooked due to difficulty in achieving the correct diagnosis, sparse symptomatology of the condition and a high risk of misinterpretion of the biochemical changes in central hypothyroidism. Central hypothyroidism is mainly seen in patients with hypothalamic-pituitary pathology due to one of many possible aetiologies, where other hormone deficiencies often co-exist, and both the presence of other deficiencies and their replacement have a strong influence on the measurement of the thyroid-related hormones and thereby interpretation of the thyroid function variables in relation to the clinical impact of thyroid hormone substitution therapy. Conversely, lack of thyroid hormone has a similar strong influence on the interpretation of other pituitary hormone axes, as well as their replacement. Undertreating patients with central hypothyroidism may have serious metabolic consequences with a potentially increased risk of cardiovascular morbidity. The present review thus aims at describing central hypothyroidism, by an overview of interactions of hypothyroidism with other pituitary hormones, diagnosing/testing for central hypothyroidism, and focusing on consequences of undertreatment. Finally, it is mentioned how to deal with new diagnostic settings with lower a priori likelihood of hypopituitarism, particularly in view of the importance of stringent diagnostic testing in order to avoid overdiagnosing central hypothyroidism.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_39442856",
+    "title": "Multidisciplinary approach to redefining thyroid hormone reference intervals with big data analysis.",
+    "authors": [
+      "Cody W Lewis",
+      "Joshua E Raizman",
+      "Victoria Higgins",
+      "Jessica L Gifford",
+      "Christopher Symonds",
+      "Gregory Kline",
+      "Jacques Romney",
+      "Manpreet Doulla",
+      "Carol Huang",
+      "Allison A Venner"
+    ],
+    "year": 2024,
+    "source": "PubMed",
+    "pmid": "39442856",
+    "doi": "10.1016/j.clinbiochem.2024.110835",
+    "journal": "Clinical biochemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39442856/",
+    "text": "OBJECTIVES: This study aimed to employ big data analysis to harmonize reference intervals (RI) for thyroid function tests, with refinement to the TSH upper reference limit, and to optimize the TSH reflex algorithm to improve clinical management and test utilization.\nDESIGN & METHODS: TSH, free T4, and free T3 results tested in Alberta, Canada, on Roche Cobas and Siemens Atellica were extracted from the laboratory information system (N\u00a0=\u00a01,144,155 for TSH, N\u00a0=\u00a0183,354 for free T4 and N\u00a0=\u00a092,632 for free T3). Results from specialists, inpatients, or repeat testing, as well as from positive thyroid disease, autoimmune disease, and pregnancy biomarkers were excluded. RIs were derived using statistical models (Bhattacharya, refineR, and simple non-parametric) followed by endocrinology and laboratory review.\nRESULTS: The TSH RIs for 0 to 7\u00a0days, 8\u00a0days to 1\u00a0year, and \u22651 year were 1.23 to 25.0 mIU/L, 1.00 to 6.80 mIU/L and 0.20 to 6.50 mIU/L, respectively. The free T4 RIs for 0 to 14\u00a0days, 15 to 29\u00a0days, and \u226530\u00a0days were 13.5 to 50.0\u00a0pmol/L, 8.7 to 32.5\u00a0pmol/L, and 10.0 to 25.0\u00a0pmol/L, respectively. An updated TSH reflex algorithm was developed based on the optimized TSH and free T4 RIs, with free T4 reflexed only at a TSH of <0.1 mIU/L.\nCONCLUSIONS: The collaboration of a multidisciplinary team and the utilization of big data analysis led to the enhancement of thyroid function RIs, specifically resulting in the widening of the upper TSH reference limit to 6.50. Application of these optimized RIs with the TSH reflex algorithm will serve as a guide for improvement in interpretation of thyroid function tests.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_12602594",
+    "title": "Endotoxn-induced nonthyroidal illness in dogs.",
+    "authors": [
+      "David L Panciera",
+      "Jerry W Ritchey",
+      "Daniel L Ward"
+    ],
+    "year": 2003,
+    "source": "PubMed",
+    "pmid": "12602594",
+    "doi": "10.2460/ajvr.2003.64.229",
+    "journal": "American journal of veterinary research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12602594/",
+    "text": "OBJECTIVE: To determine the effects of endotoxin administration on thyroid function test results and serum tumor necrosis factor-alpha (TNF-alpha) activity in healthy dogs.\nANIMALS: 6 healthy adult male dogs.\nPROCEDURES: Serum concentrations of thyroxine (T4), 3,5,3'-triiodothyronine (T3), 3,3'5'-triiodothyronine (rT3), free T4 (fT4), and endogenous canine thyroid stimulating hormone (TSH), and TNF-alpha activity were measured before (day-1; baseline), during (days 0 to 3), and after (days 4 to 24) IV administration of endotoxin every 12 hours for 84 hours.\nRESULTS: Compared with baseline values, serum T3 concentration decreased significantly, whereas rT3 concentration increased significantly 8 hours after initial endotoxin administration. Serum T4 concentration decreased significantly at 8 and 12 hours after initiating endotoxin administration. Serum T4 concentration returned to reference range limits, then decreased significantly on days 6 to 12 and 16 to 20. Serum fT4 concentration increased significantly at 12, 24, and 48 hours after cessation of endotoxin treatment, compared with baseline values. Serum rT3 concentration returned to reference range, then decreased significantly days 5 and 7 after stopping endotoxin treatment. Serum TNF-alpha activity was significantly increased only 4 hours after initial endotoxin treatment, compared with baseline activity.\nCONCLUSIONS AND CLINICAL RELEVANCE: Endotoxin administration modeled alterations in thyroid function test results found in dogs with spontaneous nonthyroidal illness syndrome. A decrease in serum T4 andT3 concentrations and increase in serum rT3 concentration indicate impaired secretion and metabolism of thyroid hormones. The persistent decrease in serum T4 concentration indicates that caution should be used in interpreting serum T4 concentrations after resolution of an illness in dogs.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_36222001",
+    "title": "Intraday Changes and Clinical Applications of Thyroid Function Biomarkers in Healthy Subjects.",
+    "authors": [
+      "Yan Zhang",
+      "Hua-Li Wang",
+      "Chao-Qiong Zhou",
+      "Da-Hai He",
+      "Feng Wu",
+      "Hong-Chuan Li",
+      "Qian-Rong Xie",
+      "Yu Luo",
+      "Li-Rui Kong"
+    ],
+    "year": 2023,
+    "source": "PubMed",
+    "pmid": "36222001",
+    "doi": "10.1093/labmed/lmac105",
+    "journal": "Laboratory medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36222001/",
+    "text": "OBJECTIVE: We evaluated the intraday changes of thyroid function biomarkers in healthy subjects to help clinicians diagnose thyroid diseases in appropriate timing.\nMETHODS: Blood samples were collected from 31 subjects at 0:00, 4:00, 8:00, 12:00, 16:00 and 20:00 on the sampling day and analyzed for thyroid-stimulating hormone (TSH), triiodothyronine (T3), thyroxine (T4), free T3 (FT3), and free T4 (FT4). The intraday concentration changes were analyzed using Friedman's 2-way analysis of variance by ranks.\nRESULTS: The concentrations of TSH, T3, T4, FT3, and FT4 in males were significantly higher than those in females (P\u2005<\u2005.01). The obvious peak circadian rhythm of TSH was observed at 0:00 AM with gradual decline thereafter, whereas other biomarkers showed no rhythmic changes.\nCONCLUSION: Sex differences should be considered in interpreting thyroid function tests. It is important to select the sampling time according to the clinician's diagnostic needs, especially at night when TSH secretion peaks.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_12915350",
+    "title": "[Thyroxine (T4) and tri-iodothyronine (T3) determinations: techniques and value in the assessment of thyroid function].",
+    "authors": [
+      "R Sapin",
+      "J-L Schlienger"
+    ],
+    "year": 2003,
+    "source": "PubMed",
+    "pmid": "12915350",
+    "doi": null,
+    "journal": "Annales de biologie clinique",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12915350/",
+    "text": "Hormonal production of the thyroid gland is constituted of thyroxine or T4 (80%) and triiodothyronine or T3 (20%). In the circulation, whole T4 originates from thyroid secretion but most of T3 (80%) is produced extrathyroidally from T4 deiodination. Conversion of T4 to T3 may be influenced by various conditions and circulating T3 is a less reliable reflection of thyroid hormone production than T4. In serum most of T4 and T3 is bound to binding proteins and only 0.02% of T4 and 0.3% of T3 is free. Because of their higher diagnostic performance, free T4 (FT4) and free T3 (FT3) measurements have superseded total (free + bound) hormone determination. Total hormone measurements remain useful for research studies or in case of severe hyperthyroidism. Equilibrium dialysis/RIA is considered as the reference method for free hormone measurements. Routine clinical laboratories use automated direct two-step or one-step immunoassays with a high molecular weight ligand or labelled antibody. Free hormone measurement remains technically demanding, especially in sera from severe non-thyroid ill patients with low serum thyroxine binding capacity. Interference from anti-thyroid hormone antibodies and familial dysalbuminemic hyperthyroxinemia depends on the assay method, but is now less marked and less frequently detected. To be able to correctly interpret the results of an assay, it is necessary to assess its performance in biologically and clinically well-characterised serum samples. FT4, and FT3 measurements, if FT4 is normal and hyperthyroidism suspected, are used to confirm and assess the level of hypo and hyperthyroidism (overt or subclinical). When the thyroidal status is unstable (first months of a thyroid treatment, altered L-T4 dose, subacute thyroiditis) or when the hypothalamic-pituitary function is disturbed (central hypothyroidism), TSH determination is diagnostically misleading and only free hormone measurements are reliable for thyroid function assessment.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_35521782",
+    "title": "Thyroid function tests, incongruent internally and with thyroid status, both in a pregnant woman and in her newborn daughter.",
+    "authors": [
+      "Federica D'Aurizio",
+      "Alessia Biasotto",
+      "Claudia Cipri",
+      "Franco Grimaldi",
+      "Jessica Zucco",
+      "Stefania Marzinotto",
+      "Francesco Curcio",
+      "Salvatore Benvenga"
+    ],
+    "year": 2022,
+    "source": "PubMed",
+    "pmid": "35521782",
+    "doi": "10.1155/2018/9501865",
+    "journal": "European thyroid journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35521782/",
+    "text": "INTRODUCTION: Thyroid function tests (TFT) are extensively used in daily clinical practice. Here, we described a case of incongruent TFT both in a pregnant woman and in her newborn.\nCASE PRESENTATION: A 32-year-old woman, diagnosed with autoimmune thyroiditis during her first pregnancy, was monitored during her second gestation. At week 5 + 2 days, thyroid-stimulating hormone (TSH) and free thyroxine (FT4) values (Dimension VISTA 1500, Siemens Healthineers) were within normal limits. At week 19 + 5 days, TSH remained normal while FT4 increased approximately by three-fold. FT4 inconsistency was with both TSH and the clinical status since she continued to be clinically euthyroid. On the same serum sample, thyroid autoantibodies were negative. At week 25 + 4 days, the patient complained of palpitations and dyspnea, with tachycardia. Even though TSH was normal, high levels of both FT4 and free triiodothyronine (FT3) were interpreted as evidence of thyroid overactivity and methimazole was started. TFT of the pregnant woman continued to be monitored throughout gestation. Postpartum FT4 and FT3 gradually returned to normal. TFT, performed on the daughter's serum, 3 days after birth, showed the same inconsistency as her mother but without clinical signs of congenital hyperthyroidism. Based on the clinical and laboratory setting, the presence of circulating autoantibodies against T3 and T4 (THAb) was suspected and demonstrated by radioimmunoprecipitation.\nCONCLUSION: Analytical interferences should be supposed when TFT do not fit with the clinical picture and despite their infrequency, THAb must also be considered. To our knowledge, this is the first case describing the passage of THAb to the newborn.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_22466337",
+    "title": "Macro-thyrotropin: a case report and review of literature.",
+    "authors": [
+      "Tze Ping Loh",
+      "Shih Ling Kao",
+      "David J Halsall",
+      "Sue-Anne Ee Shiow Toh",
+      "Edmund Chan",
+      "Su Chin Ho",
+      "E Shyong Tai",
+      "Chin Meng Khoo"
+    ],
+    "year": 2012,
+    "source": "PubMed",
+    "pmid": "22466337",
+    "doi": "10.1210/jc.2011-3490",
+    "journal": "The Journal of clinical endocrinology and metabolism",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22466337/",
+    "text": "CONTEXT: Isolated elevation of TSH in the absence of thyroid symptoms can be very rarely caused by a macromolecule formed between TSH and Ig (macro-TSH), confounding the interpretation of thyroid function test results.\nOBJECTIVE: We described the use of several commonly available laboratory-based approaches to investigate an isolated TSH elevation [232 mIU/liter; free T(4), 10 pmol/liter (reference interval, 10.0-23.0 pmol/liter), Vitros platform] in a clinically euthyroid elderly gentleman, which led to the diagnosis of macro-TSH.\nMETHODS AND RESULTS: TSH concentration of the patient was significantly lower (122 mIU/liter) when measured on the Advia Centaur platform. Serial dilution of the patient's sample showed a nonlinear increase in TSH recovery at increasing dilution (nonlinearity). Polyethylene glycol precipitation and mixing the patient's sample with a hypothyroid patient sample showed reduced TSH recovery, suggesting the presence of a high molecular weight interfering substance and excess TSH binding capacity, respectively. Heterophile blocking tube studies and rheumatoid factors were negative. Gel filtration chromatography demonstrated a TSH peak fraction that approximated the molecular size of IgG; together with the excess TSH binding capacity, this indicated the presence of TSH-IgG macro-TSH. A review of 12 macro-TSH case reports showed that samples with macro-TSH produce over-recovery with dilution, return negative results on anti-animal and anti-heterophile blocking studies, and commonly have recovery of less than 20% when subjected to polyethylene glycol precipitation.\nCONCLUSION: Macro-TSH is an underrecognized laboratory interference. Routine laboratory techniques described above can help diagnose this rare entity. A close dialogue between the physician and the laboratory is important in approaching such cases.",
+    "query_topic": "thyroid_function_tests"
+  },
+  {
+    "document_id": "pmid_10480705",
+    "title": "Thyroid nodules, thyroid function and dietary iodine in the Marshall islands.",
+    "authors": [
+      "T Takahashi",
+      "K Fujimori",
+      "S L Simon",
+      "G Bechtner",
+      "R Edwards",
+      "K R Trott"
+    ],
+    "year": 1999,
+    "source": "PubMed",
+    "pmid": "10480705",
+    "doi": "10.1093/ije/28.4.742",
+    "journal": "International journal of epidemiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10480705/",
+    "text": "BACKGROUND: Thyroid nodules have been found to be common in the population of the Marshall Islands. This has been attributed to potential exposure of radioiodines from the nuclear weapons tests on Bikini and Eniwetok between 1946 and 1958.\nMETHODS: In order to get a full picture of thyroid pathology in the Marshallese population potentially exposed to radioactive fallout we performed a large thyroid screening programme using palpation, high resolution ultrasound and fine needle biopsies of palpable nodules. In addition, various parameters of thyroid function (free T3, free T4, thyroid stimulating hormone [TSH]) and anti-thyroid antibodies were examined in large proportions of the total population at risk. Since dietary iodine deficiency is an established risk factor for thyroid nodules, iodine concentration in urine samples of 362 adults and 119 children was measured as well as the iodine content of selected staple food products.\nRESULTS: The expected high prevalence of thyroid nodules was confirmed. There was no indication of an increased rate of impaired thyroid function in the Marshallese population. A moderate degree of iodine deficiency was found which may be responsible for some of the increased prevalence of thyroid nodules in the Marshallese population.\nCONCLUSIONS: Studies on the relationship between exposure to radioiodines and thyroid nodules need to take dietary iodine deficiency into account in the interpretation of findings.",
+    "query_topic": "thyroid_function_tests"
+  }
+]

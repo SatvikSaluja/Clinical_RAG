@@ -1,0 +1,41 @@
+{
+  "patient_id": "patient_002",
+  "name": "Priya Nandakumar (synthetic)",
+  "age": 66,
+  "sex": "female",
+  "summary": "66-year-old female with longstanding hypertension and stage 3 chronic kidney disease, on an ACE inhibitor and diuretic.",
+  "labs": [
+    {"test": "eGFR", "value": 52, "unit": "mL/min/1.73m2", "reference_range": ">90", "date": "2026-01-20", "status": "low"},
+    {"test": "eGFR", "value": 58, "unit": "mL/min/1.73m2", "reference_range": ">90", "date": "2025-07-15", "status": "low"},
+    {"test": "Serum creatinine", "value": 1.4, "unit": "mg/dL", "reference_range": "0.6-1.1", "date": "2026-01-20", "status": "high"},
+    {"test": "Blood urea nitrogen", "value": 24, "unit": "mg/dL", "reference_range": "7-20", "date": "2026-01-20", "status": "high"},
+    {"test": "Urine albumin-to-creatinine ratio", "value": 145, "unit": "mg/g", "reference_range": "<30", "date": "2026-01-20", "status": "high"},
+    {"test": "Potassium", "value": 5.1, "unit": "mmol/L", "reference_range": "3.5-5.0", "date": "2026-01-20", "status": "high"},
+    {"test": "Sodium", "value": 138, "unit": "mmol/L", "reference_range": "135-145", "date": "2026-01-20", "status": "normal"},
+    {"test": "Blood pressure (systolic)", "value": 149, "unit": "mmHg", "reference_range": "<120", "date": "2026-01-20", "status": "high"},
+    {"test": "Blood pressure (diastolic)", "value": 91, "unit": "mmHg", "reference_range": "<80", "date": "2026-01-20", "status": "high"},
+    {"test": "Hemoglobin", "value": 11.2, "unit": "g/dL", "reference_range": "12.0-15.5", "date": "2026-01-20", "status": "low"},
+    {"test": "LDL cholesterol", "value": 118, "unit": "mg/dL", "reference_range": "<100", "date": "2025-07-15", "status": "high"},
+    {"test": "Fasting glucose", "value": 92, "unit": "mg/dL", "reference_range": "70-99", "date": "2026-01-20", "status": "normal"},
+    {"test": "Calcium", "value": 9.1, "unit": "mg/dL", "reference_range": "8.5-10.2", "date": "2026-01-20", "status": "normal"},
+    {"test": "Phosphate", "value": 4.3, "unit": "mg/dL", "reference_range": "2.5-4.5", "date": "2026-01-20", "status": "normal"}
+  ],
+  "medications": [
+    {"name": "lisinopril", "dose": "20 mg", "frequency": "once daily", "start_date": "2019-03-10", "indication": "hypertension"},
+    {"name": "hydrochlorothiazide", "dose": "25 mg", "frequency": "once daily", "start_date": "2020-05-22", "indication": "hypertension"},
+    {"name": "amlodipine", "dose": "5 mg", "frequency": "once daily", "start_date": "2023-09-01", "indication": "hypertension"},
+    {"name": "atorvastatin", "dose": "10 mg", "frequency": "once daily at night", "start_date": "2021-02-14", "indication": "hyperlipidemia"}
+  ],
+  "history": [
+    {"date": "2018-11-05", "event": "Diagnosed with essential hypertension", "category": "diagnosis"},
+    {"date": "2021-02-14", "event": "Diagnosed with hyperlipidemia", "category": "diagnosis"},
+    {"date": "2023-06-30", "event": "Diagnosed with stage 3 chronic kidney disease (eGFR 58)", "category": "diagnosis"},
+    {"date": "2024-02-11", "event": "Hospitalized for hypertensive urgency, blood pressure 190/110", "category": "hospitalization"},
+    {"date": "2024-08-19", "event": "Nephrology referral for declining renal function", "category": "procedure"},
+    {"date": "2025-07-15", "event": "eGFR declined to 58 mL/min/1.73m2 from prior 64", "category": "abnormal_lab"},
+    {"date": "2025-09-12", "event": "Mother had chronic kidney disease requiring dialysis", "category": "family_history"},
+    {"date": "2025-12-01", "event": "Reports mild lower extremity swelling in the evenings", "category": "symptom"},
+    {"date": "2026-01-20", "event": "eGFR further declined to 52, potassium mildly elevated at 5.1", "category": "abnormal_lab"},
+    {"date": "2026-01-20", "event": "Reports fatigue and occasional lightheadedness on standing", "category": "symptom"}
+  ]
+}

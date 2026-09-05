@@ -1,0 +1,67 @@
+{
+  "Baseline A: LLM only": {
+    "num_queries": 15,
+    "recall_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "citation_accuracy": 0.0,
+    "supported_claim_rate": 0.0,
+    "hallucination_rate": 1.0,
+    "avg_latency_retrieval_s": 1.1412609418233235,
+    "avg_latency_generation_s": 49.14776220321655,
+    "avg_latency_verification_s": 0.07137897809346518,
+    "total_citations": 42,
+    "total_claims": 71
+  },
+  "Baseline B: Dense + LLM": {
+    "num_queries": 15,
+    "recall_at_5": 0.26666666666666666,
+    "recall_at_10": 0.26666666666666666,
+    "citation_accuracy": 0.21428571428571427,
+    "supported_claim_rate": 0.025974025974025976,
+    "hallucination_rate": 0.974025974025974,
+    "avg_latency_retrieval_s": 0.8732227166493733,
+    "avg_latency_generation_s": 88.78849716186524,
+    "avg_latency_verification_s": 3.861831871668498,
+    "total_citations": 14,
+    "total_claims": 77
+  },
+  "Baseline C: BM25 + LLM": {
+    "num_queries": 15,
+    "recall_at_5": 0.16666666666666666,
+    "recall_at_10": 0.16666666666666666,
+    "citation_accuracy": 0.5,
+    "supported_claim_rate": 0.03529411764705882,
+    "hallucination_rate": 0.9647058823529412,
+    "avg_latency_retrieval_s": 0.6470154444376628,
+    "avg_latency_generation_s": 77.81350277264913,
+    "avg_latency_verification_s": 3.5845207850138348,
+    "total_citations": 18,
+    "total_claims": 85
+  },
+  "Baseline D: Hybrid (BM25+Dense) + LLM": {
+    "num_queries": 15,
+    "recall_at_5": 0.23333333333333334,
+    "recall_at_10": 0.23333333333333334,
+    "citation_accuracy": 0.4883720930232558,
+    "supported_claim_rate": 0.09302325581395349,
+    "hallucination_rate": 0.9069767441860465,
+    "avg_latency_retrieval_s": 0.8915857950846354,
+    "avg_latency_generation_s": 107.9735689163208,
+    "avg_latency_verification_s": 9.957349395751953,
+    "total_citations": 43,
+    "total_claims": 86
+  },
+  "Final System: Hybrid + Reranker + Verification": {
+    "num_queries": 15,
+    "recall_at_5": 0.6666666666666666,
+    "recall_at_10": 0.6666666666666666,
+    "citation_accuracy": 0.14285714285714285,
+    "supported_claim_rate": 0.012195121951219513,
+    "hallucination_rate": 0.9878048780487805,
+    "avg_latency_retrieval_s": 13.383786535263061,
+    "avg_latency_generation_s": 80.56833066940308,
+    "avg_latency_verification_s": 3.7778252442677815,
+    "total_citations": 21,
+    "total_claims": 82
+  }
+}

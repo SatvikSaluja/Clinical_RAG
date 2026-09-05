@@ -1,0 +1,37 @@
+{
+  "patient_id": "patient_003",
+  "name": "Morgan Okafor (synthetic)",
+  "age": 34,
+  "sex": "female",
+  "summary": "34-year-old female recently diagnosed with hypothyroidism and iron-deficiency anemia, on levothyroxine and iron supplementation.",
+  "labs": [
+    {"test": "TSH", "value": 8.7, "unit": "mIU/L", "reference_range": "0.4-4.0", "date": "2026-03-02", "status": "high"},
+    {"test": "TSH", "value": 6.9, "unit": "mIU/L", "reference_range": "0.4-4.0", "date": "2026-05-20", "status": "high"},
+    {"test": "Free T4", "value": 0.7, "unit": "ng/dL", "reference_range": "0.8-1.8", "date": "2026-03-02", "status": "low"},
+    {"test": "Free T4", "value": 0.9, "unit": "ng/dL", "reference_range": "0.8-1.8", "date": "2026-05-20", "status": "normal"},
+    {"test": "Hemoglobin", "value": 10.1, "unit": "g/dL", "reference_range": "12.0-15.5", "date": "2026-03-02", "status": "low"},
+    {"test": "Hemoglobin", "value": 11.0, "unit": "g/dL", "reference_range": "12.0-15.5", "date": "2026-05-20", "status": "low"},
+    {"test": "Ferritin", "value": 8, "unit": "ng/mL", "reference_range": "15-150", "date": "2026-03-02", "status": "low"},
+    {"test": "Serum iron", "value": 32, "unit": "ug/dL", "reference_range": "50-170", "date": "2026-03-02", "status": "low"},
+    {"test": "Total iron binding capacity", "value": 470, "unit": "ug/dL", "reference_range": "250-450", "date": "2026-03-02", "status": "high"},
+    {"test": "Mean corpuscular volume", "value": 76, "unit": "fL", "reference_range": "80-100", "date": "2026-03-02", "status": "low"},
+    {"test": "Vitamin B12", "value": 420, "unit": "pg/mL", "reference_range": "200-900", "date": "2026-03-02", "status": "normal"},
+    {"test": "Fasting glucose", "value": 88, "unit": "mg/dL", "reference_range": "70-99", "date": "2026-03-02", "status": "normal"},
+    {"test": "LDL cholesterol", "value": 95, "unit": "mg/dL", "reference_range": "<100", "date": "2026-03-02", "status": "normal"}
+  ],
+  "medications": [
+    {"name": "levothyroxine", "dose": "50 mcg", "frequency": "once daily on an empty stomach", "start_date": "2026-03-05", "indication": "hypothyroidism"},
+    {"name": "ferrous sulfate", "dose": "325 mg", "frequency": "once daily", "start_date": "2026-03-05", "indication": "iron-deficiency anemia"},
+    {"name": "oral contraceptive (ethinyl estradiol/norgestimate)", "dose": "0.035 mg/0.25 mg", "frequency": "once daily", "start_date": "2021-01-10", "indication": "contraception"}
+  ],
+  "history": [
+    {"date": "2026-01-15", "event": "Reported fatigue, cold intolerance, and heavy menstrual periods", "category": "symptom"},
+    {"date": "2026-03-02", "event": "Diagnosed with subclinical-to-overt hypothyroidism (TSH 8.7, low free T4)", "category": "diagnosis"},
+    {"date": "2026-03-02", "event": "Diagnosed with iron-deficiency anemia (hemoglobin 10.1, ferritin 8)", "category": "diagnosis"},
+    {"date": "2026-03-05", "event": "Started levothyroxine 50 mcg and ferrous sulfate 325 mg daily", "category": "procedure"},
+    {"date": "2026-04-01", "event": "Reports mild improvement in fatigue after 4 weeks of treatment", "category": "symptom"},
+    {"date": "2026-05-20", "event": "Repeat labs show TSH improving to 6.9, hemoglobin rising to 11.0", "category": "abnormal_lab"},
+    {"date": "2026-05-20", "event": "Mother has autoimmune (Hashimoto's) thyroiditis", "category": "family_history"},
+    {"date": "2026-06-10", "event": "Reports persistent heavy menstrual bleeding, referred to gynecology", "category": "symptom"}
+  ]
+}
