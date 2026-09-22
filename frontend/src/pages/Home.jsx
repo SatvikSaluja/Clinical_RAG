@@ -41,20 +41,22 @@ export default function Home() {
   }
 
   return (
-    <div className="main-grid">
-      <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+    <>
+      <QueryPanel onSubmit={handleSubmit} loading={loading} disabled={!selectedId} />
+      {error && (
+        <div className="query-bar-error">{error}</div>
+      )}
+
+      <div className="main-grid">
         <PatientPanel
           patients={patients}
           selectedId={selectedId}
           onSelect={setSelectedId}
           patient={patient}
         />
-        <QueryPanel onSubmit={handleSubmit} loading={loading} disabled={!selectedId} />
-        {error && <div className="panel"><div className="empty-state" style={{ color: "var(--bad)" }}>{error}</div></div>}
+        <RetrievalPanel result={result} />
+        <AnswerPanel result={result} loading={loading} />
       </div>
-
-      <RetrievalPanel result={result} />
-      <AnswerPanel result={result} loading={loading} />
-    </div>
+    </>
   );
 }

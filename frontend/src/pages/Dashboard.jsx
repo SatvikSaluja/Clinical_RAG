@@ -14,25 +14,33 @@ function pct(v) {
 }
 
 function MetricTile({ label, value, target, isCeiling }) {
+  const hasTarget = target != null && value != null;
+  const met = hasTarget ? (isCeiling ? value <= target : value >= target) : null;
+  const barPct = value != null ? Math.min(100, Math.max(0, value * 100)) : 0;
+  const cls = met === null ? "" : met ? "pass" : "fail";
+
   return (
-    <div className="metric-tile">
+    <div className={`metric-tile ${cls}`}>
       <div className="value">{pct(value)}</div>
       <div className="label">{label}</div>
-      {target != null && (
-        <div className="target">
-          Target: {isCeiling ? "≤" : ""}{pct(target)}
-        </div>
+      {hasTarget && (
+        <>
+          <div className="bar-track"><div className="bar-fill" style={{ width: `${barPct}%` }} /></div>
+          <div className="target">
+            {met ? "✓ " : "— "}Target: {isCeiling ? "≤" : "≥"}{pct(target)}
+          </div>
+        </>
       )}
     </div>
   );
 }
 
-function ResultsTable({ title, table }) {
+function ResultsTable({ title, table, highlightKey }) {
   const rows = Object.entries(table || {});
   if (rows.length === 0) return null;
   return (
     <>
-      <h3>{title}</h3>
+      <div className="dash-section-title">{title}</div>
       <div style={{ overflowX: "auto" }}>
         <table className="results-table">
           <thead>
@@ -49,7 +57,7 @@ function ResultsTable({ title, table }) {
           </thead>
           <tbody>
             {rows.map(([name, m]) => (
-              <tr key={name}>
+              <tr key={name} className={highlightKey && name.includes(highlightKey) ? "highlight-row" : ""}>
                 <td>{name}</td>
                 <td>{pct(m.recall_at_5)}</td>
                 <td>{pct(m.recall_at_10)}</td>
@@ -75,17 +83,23 @@ export default function Dashboard() {
     getDashboard().then(setData).catch((e) => setError(e.message));
   }, []);
 
-  if (error) return <div className="panel"><div className="empty-state">Error loading dashboard: {error}</div></div>;
-  if (!data) return <div className="panel"><div className="loading-note">Loading dashboard...</div></div>;
+  if (error) return <div className="dash-page"><div className="dash-card"><div className="empty-state">Error loading dashboard: {error}</div></div></div>;
+  if (!data) return <div className="dash-page"><div className="dash-card"><div className="loading-note">Loading dashboard...</div></div></div>;
 
   const full = data.results?.full_system?.summary;
   const baselines = data.results?.baselines_summary;
   const ablation = data.results?.ablation_summary;
 
   return (
-    <div style={{ padding: "20px" }}>
-      <div className="panel" style={{ marginBottom: 20 }}>
-        <h2>Research Dashboard - Final System</h2>
+    <div className="dash-page">
+      <div className="dash-hero">
+        <div>
+          <h2>Research Dashboard</h2>
+          <p>Measured performance of the final evidence-grounded RAG system against target quality bars</p>
+        </div>
+      </div>
+
+      <div className="dash-card">
         {!full && (
           <div className="empty-state">
             No evaluation results yet. Run <code>python -m backend.evaluation.baselines</code> and{" "}
@@ -93,35 +107,43 @@ export default function Dashboard() {
           </div>
         )}
         {full && (
-          <div className="metric-grid">
-            <MetricTile label="Recall@5" value={full.recall_at_5} target={TARGETS.recall_at_5} />
-            <MetricTile label="Recall@10" value={full.recall_at_10} />
-            <MetricTile label="Citation Accuracy" value={full.citation_accuracy} target={TARGETS.citation_accuracy} />
-            <MetricTile label="Supported Claim Rate" value={full.supported_claim_rate} target={TARGETS.supported_claim_rate} />
-            <MetricTile label="Hallucination Rate" value={full.hallucination_rate} target={TARGETS.hallucination_rate} isCeiling />
-            <div className="metric-tile">
-              <div className="value">{full.num_queries}</div>
-              <div className="label">Evaluated Queries</div>
+          <>
+            <div className="metric-grid">
+              <MetricTile label="Recall@5" value={full.recall_at_5} target={TARGETS.recall_at_5} />
+              <MetricTile label="Citation Accuracy" value={full.citation_accuracy} target={TARGETS.citation_accuracy} />
+              <MetricTile label="Supported Claim Rate" value={full.supported_claim_rate} target={TARGETS.supported_claim_rate} />
+              <MetricTile label="Hallucination Rate" value={full.hallucination_rate} target={TARGETS.hallucination_rate} isCeiling />
             </div>
-            <div className="metric-tile">
-              <div className="value">{full.avg_latency_retrieval_s?.toFixed(2)}s</div>
-              <div className="label">Avg Retrieval Latency</div>
+            <div className="dash-section-title">Operational stats</div>
+            <div className="metric-grid">
+              <div className="metric-tile">
+                <div className="value">{full.recall_at_10 != null ? pct(full.recall_at_10) : full.num_queries}</div>
+                <div className="label">Recall@10</div>
+              </div>
+              <div className="metric-tile">
+                <div className="value">{full.num_queries}</div>
+                <div className="label">Evaluated Queries</div>
+              </div>
+              <div className="metric-tile">
+                <div className="value">{full.avg_latency_retrieval_s?.toFixed(2)}s</div>
+                <div className="label">Avg Retrieval Latency</div>
+              </div>
+              <div className="metric-tile">
+                <div className="value">{full.avg_latency_generation_s?.toFixed(2)}s</div>
+                <div className="label">Avg Generation Latency</div>
+              </div>
+              <div className="metric-tile">
+                <div className="value">{full.avg_latency_verification_s?.toFixed(2)}s</div>
+                <div className="label">Avg Verification Latency</div>
+              </div>
             </div>
-            <div className="metric-tile">
-              <div className="value">{full.avg_latency_generation_s?.toFixed(2)}s</div>
-              <div className="label">Avg Generation Latency</div>
-            </div>
-            <div className="metric-tile">
-              <div className="value">{full.avg_latency_verification_s?.toFixed(2)}s</div>
-              <div className="label">Avg Verification Latency</div>
-            </div>
-          </div>
+          </>
         )}
       </div>
 
-      <div className="panel">
-        <ResultsTable title="Baseline Comparison" table={baselines} />
-        <ResultsTable title="Ablation Study" table={ablation} />
+      <div className="dash-card">
+        <ResultsTable title="Baseline Comparison" table={baselines} highlightKey="Final" />
+        <ResultsTable title="Ablation Study" table={ablation} highlightKey="Full System" />
         {!baselines && !ablation && (
           <div className="empty-state">No baseline/ablation results yet - see RESULTS.md for how to generate them.</div>
         )}

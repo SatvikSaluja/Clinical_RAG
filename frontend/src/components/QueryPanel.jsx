@@ -10,29 +10,33 @@ const EXAMPLE_QUESTIONS = [
 export default function QueryPanel({ onSubmit, loading, disabled }) {
   const [question, setQuestion] = useState("");
 
+  function submit() {
+    if (!disabled && !loading && question.trim()) onSubmit(question.trim());
+  }
+
   return (
-    <div className="panel">
-      <h2>Ask a Question</h2>
-      <textarea
-        className="question-input"
-        placeholder="e.g. What factors could explain my recent glucose levels?"
-        value={question}
-        onChange={(e) => setQuestion(e.target.value)}
-      />
-      <div>
-        <button
-          className="run-button"
-          disabled={disabled || loading || !question.trim()}
-          onClick={() => onSubmit(question.trim())}
-        >
-          {loading ? "Running pipeline..." : "Ask"}
+    <div className="query-bar">
+      <div className="query-bar-row">
+        <textarea
+          className="question-input"
+          placeholder="Ask about your labs, medications, or history — e.g. “What factors could explain my recent glucose levels?”"
+          value={question}
+          onChange={(e) => setQuestion(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+              e.preventDefault();
+              submit();
+            }
+          }}
+          rows={1}
+        />
+        <button className="run-button" disabled={disabled || loading || !question.trim()} onClick={submit}>
+          {loading ? "Running…" : "Ask"}
         </button>
       </div>
-
-      <div style={{ marginTop: 14 }}>
-        <h3 style={{ fontSize: 12, color: "var(--text-dim)" }}>Example questions</h3>
+      <div className="example-q-row">
         {EXAMPLE_QUESTIONS.map((q) => (
-          <div key={q} className="example-q" onClick={() => setQuestion(q)}>{q}</div>
+          <button key={q} className="example-chip" onClick={() => setQuestion(q)}>{q}</button>
         ))}
       </div>
     </div>
