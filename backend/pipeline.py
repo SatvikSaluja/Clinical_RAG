@@ -47,7 +47,7 @@ class RetrievalEngine:
     def __init__(self):
         bm25_path = INDEX_DIR / "bm25.pkl"
         dense_path = INDEX_DIR / "dense"
-        if not bm25_path.exists() or not dense_path.exists():
+        if not bm25_path.exists():
             raise RuntimeError(
                 "Indices not found under data/processed/index/. Run "
                 "`python -m backend.scripts.build_corpus` then "
@@ -55,8 +55,15 @@ class RetrievalEngine:
             )
         logger.info("Loading BM25 index from %s", bm25_path)
         self.bm25 = BM25Index.load(bm25_path)
-        logger.info("Loading dense index from %s", dense_path)
-        self.dense = DenseIndex.load(dense_path)
+        # embedding_provider == "none" skips dense retrieval entirely (no
+        # index is even built in that mode) - see README "Deploying on
+        # limited RAM". BM25 + reranking still works fine without it.
+        if settings.embedding_provider != "none" and dense_path.exists():
+            logger.info("Loading dense index from %s", dense_path)
+            self.dense = DenseIndex.load(dense_path)
+        else:
+            logger.info("Dense retrieval disabled (embedding_provider=none) - BM25 only")
+            self.dense = None
         self._reranker = None
 
     @property
@@ -128,7 +135,7 @@ def run_pipeline(patient: Patient, question: str, config: PipelineConfig | None 
     else:
         bm25_results = []
 
-    if config.use_dense:
+    if config.use_dense and engine.dense is not None:
         dense_results = engine.dense.search(question, top_k=dense_k)
         if context_augmented:
             dense_results = merge_candidate_lists(

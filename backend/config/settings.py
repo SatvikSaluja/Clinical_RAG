@@ -47,10 +47,13 @@ class Settings(BaseSettings):
     reranker_fallback_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     nli_model: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
-    # "local" (default, PyTorch models above) or "remote" (Gemini/OpenAI-
-    # compatible API - no PyTorch loaded at all). Remote is for
-    # memory-constrained deployments - see README "Deploying on limited RAM".
-    embedding_provider: Literal["local", "remote"] = "local"
+    # "local" (default, PyTorch models above), "remote" (Gemini/OpenAI-
+    # compatible embeddings API - no PyTorch loaded), or "none" (skip dense
+    # retrieval and semantic patient-context ranking entirely - BM25 +
+    # keyword-overlap only, zero embedding calls). "none" is for hosts
+    # where even a free embeddings API's rate limits are too unreliable to
+    # depend on at deploy time - see README "Deploying on limited RAM".
+    embedding_provider: Literal["local", "remote", "none"] = "local"
     remote_embedding_model: str = "gemini-embedding-001"
     reranker_provider: Literal["local", "llm"] = "local"
 

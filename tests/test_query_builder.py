@@ -52,3 +52,19 @@ def test_build_augmented_query_includes_question(monkeypatch):
     patient = _patient()
     query, fields = query_builder.build_augmented_query(patient, "What does my HbA1c mean?")
     assert "HbA1c" in query
+
+
+def test_keyword_overlap_fallback_used_when_no_embedding_provider(monkeypatch):
+    """embedding_provider == 'none' should never call encode_texts (no
+    model, no API) and still surface the matching field via keyword overlap."""
+    monkeypatch.setattr(query_builder.settings, "embedding_provider", "none")
+
+    def _boom(texts):
+        raise AssertionError("encode_texts should not be called when embedding_provider is 'none'")
+
+    monkeypatch.setattr(query_builder, "encode_texts", _boom)
+    patient = _patient()
+    selected = query_builder.select_relevant_context(
+        patient, "What does my HbA1c result mean?", max_fields=5, threshold=0.0
+    )
+    assert any("HbA1c" in f.text for f in selected)

@@ -21,6 +21,7 @@ import numpy as np
 
 from backend.config.settings import settings
 from backend.models.patient import Patient
+from backend.retrieval.bm25 import tokenize
 from backend.retrieval.dense import encode_texts
 
 
@@ -55,13 +56,27 @@ def render_all_fields(patient: Patient) -> list[PatientContextField]:
     return fields
 
 
+def _keyword_overlap_similarities(question: str, texts: list[str]) -> list[float]:
+    """Jaccard token overlap - a zero-dependency fallback relevance signal
+    when no embedding provider is available (settings.embedding_provider ==
+    "none"). Reuses the BM25 tokenizer so hyphenated/numeric clinical terms
+    (e.g. "HbA1c", "7.4") still match correctly."""
+    q_tokens = set(tokenize(question))
+    sims = []
+    for text in texts:
+        t_tokens = set(tokenize(text))
+        union = q_tokens | t_tokens
+        sims.append(len(q_tokens & t_tokens) / len(union) if union else 0.0)
+    return sims
+
+
 def select_relevant_context(
     patient: Patient, question: str, max_fields: int | None = None, threshold: float | None = None
 ) -> list[PatientContextField]:
-    """Rank every patient-context field by embedding similarity to the
-    question and keep the ones above `threshold`, capped at `max_fields`.
-    Always returns at least one field (the single most relevant) so the
-    generator never runs with zero patient context.
+    """Rank every patient-context field by relevance to the question and
+    keep the ones above `threshold`, capped at `max_fields`. Always returns
+    at least one field (the single most relevant) so the generator never
+    runs with zero patient context.
     """
     max_fields = settings.max_patient_context_fields if max_fields is None else max_fields
     threshold = settings.patient_context_similarity_threshold if threshold is None else threshold
@@ -70,16 +85,21 @@ def select_relevant_context(
     if not fields:
         return []
 
-    texts = [question] + [f.text for f in fields]
-    embeddings = encode_texts(texts)
-    q_emb = embeddings[0]
-    field_embs = embeddings[1:]
-
-    q_norm = q_emb / (np.linalg.norm(q_emb) + 1e-9)
-    sims = []
-    for emb in field_embs:
-        e_norm = emb / (np.linalg.norm(emb) + 1e-9)
-        sims.append(float(np.dot(q_norm, e_norm)))
+    field_texts = [f.text for f in fields]
+    if settings.embedding_provider == "none":
+        sims = _keyword_overlap_similarities(question, field_texts)
+        # Jaccard overlap runs much lower than cosine similarity (rarely
+        # exceeds ~0.3 even for a strong match) - the configured threshold
+        # is tuned for embedding similarity, so cap it for this fallback.
+        threshold = min(threshold, 0.1)
+    else:
+        embeddings = encode_texts([question] + field_texts)
+        q_emb = embeddings[0]
+        q_norm = q_emb / (np.linalg.norm(q_emb) + 1e-9)
+        sims = []
+        for emb in embeddings[1:]:
+            e_norm = emb / (np.linalg.norm(emb) + 1e-9)
+            sims.append(float(np.dot(q_norm, e_norm)))
 
     for f, s in zip(fields, sims):
         f.similarity = s
