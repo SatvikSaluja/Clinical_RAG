@@ -4,22 +4,20 @@ from backend.models.patient import HistoryEvent, LabResult, Medication, Patient
 from backend.retrieval import query_builder
 
 
-class _FakeModel:
+def _fake_encode_texts(texts):
     """Deterministic bag-of-words embedder so tests don't need to download a
-    real model - similarity is just normalized word overlap, which is enough
-    to exercise the relevance-ranking/threshold logic under test."""
+    real model or call a remote API - similarity is just normalized word
+    overlap, which is enough to exercise the relevance-ranking/threshold
+    logic under test."""
 
-    def encode(self, texts, convert_to_numpy=True):
-        vocab = {}
+    def vec(text):
+        v = np.zeros(64)
+        for word in text.lower().split():
+            idx = hash(word) % 64
+            v[idx] += 1.0
+        return v
 
-        def vec(text):
-            v = np.zeros(64)
-            for word in text.lower().split():
-                idx = hash(word) % 64
-                v[idx] += 1.0
-            return v
-
-        return np.array([vec(t) for t in texts])
+    return np.array([vec(t) for t in texts])
 
 
 def _patient():
@@ -32,7 +30,7 @@ def _patient():
 
 
 def test_select_relevant_context_prefers_matching_field(monkeypatch):
-    monkeypatch.setattr(query_builder, "get_embedding_model", lambda *a, **k: (_FakeModel(), "fake"))
+    monkeypatch.setattr(query_builder, "encode_texts", _fake_encode_texts)
     patient = _patient()
     selected = query_builder.select_relevant_context(
         patient, "What does my HbA1c result mean?", max_fields=5, threshold=0.0
@@ -41,7 +39,7 @@ def test_select_relevant_context_prefers_matching_field(monkeypatch):
 
 
 def test_select_relevant_context_always_returns_at_least_one_field(monkeypatch):
-    monkeypatch.setattr(query_builder, "get_embedding_model", lambda *a, **k: (_FakeModel(), "fake"))
+    monkeypatch.setattr(query_builder, "encode_texts", _fake_encode_texts)
     patient = _patient()
     selected = query_builder.select_relevant_context(
         patient, "completely unrelated gibberish xyzzy", max_fields=5, threshold=0.99
@@ -50,7 +48,7 @@ def test_select_relevant_context_always_returns_at_least_one_field(monkeypatch):
 
 
 def test_build_augmented_query_includes_question(monkeypatch):
-    monkeypatch.setattr(query_builder, "get_embedding_model", lambda *a, **k: (_FakeModel(), "fake"))
+    monkeypatch.setattr(query_builder, "encode_texts", _fake_encode_texts)
     patient = _patient()
     query, fields = query_builder.build_augmented_query(patient, "What does my HbA1c mean?")
     assert "HbA1c" in query

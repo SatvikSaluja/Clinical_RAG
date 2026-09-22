@@ -21,7 +21,7 @@ import numpy as np
 
 from backend.config.settings import settings
 from backend.models.patient import Patient
-from backend.retrieval.dense import get_embedding_model
+from backend.retrieval.dense import encode_texts
 
 
 @dataclass
@@ -70,9 +70,8 @@ def select_relevant_context(
     if not fields:
         return []
 
-    model, _ = get_embedding_model()
     texts = [question] + [f.text for f in fields]
-    embeddings = model.encode(texts, convert_to_numpy=True)
+    embeddings = encode_texts(texts)
     q_emb = embeddings[0]
     field_embs = embeddings[1:]
 

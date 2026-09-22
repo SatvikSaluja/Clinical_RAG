@@ -30,7 +30,7 @@ from backend.retrieval.bm25 import BM25Index
 from backend.retrieval.dense import DenseIndex
 from backend.retrieval.hybrid import fuse, merge_candidate_lists
 from backend.retrieval.query_builder import build_augmented_query
-from backend.retrieval.reranker import CrossEncoderReranker
+from backend.retrieval.reranker import get_reranker
 from backend.verification.citation_verifier import CitationStatus, verify_citations
 from backend.verification.claim_extractor import extract_claims
 from backend.verification.claim_verifier import Verdict, verify_claims
@@ -57,12 +57,12 @@ class RetrievalEngine:
         self.bm25 = BM25Index.load(bm25_path)
         logger.info("Loading dense index from %s", dense_path)
         self.dense = DenseIndex.load(dense_path)
-        self._reranker: CrossEncoderReranker | None = None
+        self._reranker = None
 
     @property
-    def reranker(self) -> CrossEncoderReranker:
+    def reranker(self):
         if self._reranker is None:
-            self._reranker = CrossEncoderReranker()
+            self._reranker = get_reranker()
         return self._reranker
 
     def chunk_by_id(self, chunk_id: str) -> EvidenceChunk | None:

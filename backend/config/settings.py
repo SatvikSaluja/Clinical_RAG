@@ -47,6 +47,13 @@ class Settings(BaseSettings):
     reranker_fallback_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     nli_model: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 
+    # "local" (default, PyTorch models above) or "remote" (Gemini/OpenAI-
+    # compatible API - no PyTorch loaded at all). Remote is for
+    # memory-constrained deployments - see README "Deploying on limited RAM".
+    embedding_provider: Literal["local", "remote"] = "local"
+    remote_embedding_model: str = "gemini-embedding-001"
+    reranker_provider: Literal["local", "llm"] = "local"
+
     # --- Hybrid retrieval fusion ---
     hybrid_alpha: float = 0.5  # weight on normalized BM25 score; (1-alpha) on dense
     fusion_method: Literal["weighted", "rrf"] = "weighted"
@@ -68,6 +75,10 @@ class Settings(BaseSettings):
     nli_support_threshold: float = 0.55
     nli_contradiction_threshold: float = 0.55
     use_llm_secondary_verifier: bool = True
+    # Set false to skip loading the local NLI model (~740MB, the largest
+    # model in the pipeline) and use the LLM verifier as the sole claim
+    # verifier instead - for memory-constrained deployments.
+    use_local_nli_verifier: bool = True
 
     # --- Ingestion ---
     ncbi_contact_email: str = "research-prototype@example.com"

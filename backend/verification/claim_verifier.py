@@ -20,9 +20,7 @@ import logging
 import re
 from enum import Enum
 
-import torch
 from pydantic import BaseModel
-from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 from backend.config.settings import settings
 from backend.generation.generator import get_generator
@@ -52,6 +50,8 @@ class ClaimVerification(BaseModel):
 
 
 def _load_nli(model_name: str):
+    from transformers import AutoModelForSequenceClassification, AutoTokenizer  # lazy: pulls in torch
+
     if model_name in _nli_cache:
         return _nli_cache[model_name]
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -67,12 +67,14 @@ class NLIVerifier:
         self.model_name = model_name or settings.nli_model
         self.tokenizer, self.model, self.id2label = _load_nli(self.model_name)
 
-    @torch.no_grad()
     def _score(self, premise: str, hypothesis: str) -> dict[str, float]:
+        import torch  # lazy
+
         inputs = self.tokenizer(
             premise, hypothesis, truncation=True, max_length=512, return_tensors="pt"
         )
-        logits = self.model(**inputs).logits[0]
+        with torch.no_grad():
+            logits = self.model(**inputs).logits[0]
         probs = torch.softmax(logits, dim=-1)
         result = {"entailment": 0.0, "neutral": 0.0, "contradiction": 0.0}
         for i, p in enumerate(probs.tolist()):
@@ -140,22 +142,32 @@ def verify_claims(
     use_llm_secondary: bool | None = None,
 ) -> list[ClaimVerification]:
     use_llm_secondary = settings.use_llm_secondary_verifier if use_llm_secondary is None else use_llm_secondary
-    nli = NLIVerifier()
+    # settings.use_local_nli_verifier=False skips loading the (largest, ~740MB)
+    # local NLI model entirely and uses the LLM verifier as the sole verdict -
+    # for memory-constrained deployments (see README "Deploying on limited RAM").
+    use_nli = settings.use_local_nli_verifier
+    nli = NLIVerifier() if use_nli else None
     results: list[ClaimVerification] = []
 
     for claim in claims:
         cited_passages = {
             cid: evidence_by_citation[cid] for cid in claim.citation_ids if cid in evidence_by_citation
         }
-        verdict, entail, contra, neutral, best_cid = nli.verify_against_passages(
-            claim.text, cited_passages
-        )
+
+        if use_nli:
+            verdict, entail, contra, neutral, best_cid = nli.verify_against_passages(
+                claim.text, cited_passages
+            )
+        else:
+            verdict, entail, contra, neutral, best_cid = Verdict.UNSUPPORTED, 0.0, 0.0, 0.0, None
 
         llm_verdict = None
         disagreement = False
-        if use_llm_secondary and cited_passages:
+        if cited_passages and (use_llm_secondary or not use_nli):
             llm_verdict = _llm_secondary_verify(claim.text, cited_passages)
-            if llm_verdict is not None and llm_verdict != verdict:
+            if not use_nli and llm_verdict is not None:
+                verdict = llm_verdict  # LLM verifier is primary when NLI is disabled
+            elif llm_verdict is not None and llm_verdict != verdict:
                 disagreement = True
 
         reason_bits = []
@@ -163,10 +175,12 @@ def verify_claims(
             reason_bits.append("claim has no citation marker")
         elif not cited_passages:
             reason_bits.append("cited ID(s) not found in retrieved evidence")
-        else:
+        elif use_nli:
             reason_bits.append(
                 f"NLI entailment={entail:.2f} contradiction={contra:.2f} vs. {best_cid}"
             )
+        else:
+            reason_bits.append(f"LLM verifier verdict: {llm_verdict}")
         if disagreement:
             reason_bits.append(f"LLM secondary verifier disagreed (said {llm_verdict})")
 

@@ -1,4 +1,7 @@
-const BASE = "/api";
+// In dev, Vite proxies "/api" to localhost:8000 (see vite.config.js). In a
+// static prod build there's no proxy, so VITE_API_BASE must point at the
+// deployed backend's own URL (set at build time).
+const BASE = `${import.meta.env.VITE_API_BASE || ""}/api`;
 
 async function handle(resp) {
   if (!resp.ok) {
