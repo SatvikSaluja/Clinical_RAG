@@ -59,19 +59,40 @@ def get_embedding_model(model_name: str | None = None):
         return model, fallback
 
 
-def _encode_remote(texts: list[str], batch_size: int = 16) -> np.ndarray:
+def _encode_remote(texts: list[str], batch_size: int = 32, max_retries: int = 6) -> np.ndarray:
     """Embed texts via Gemini's OpenAI-compatible embeddings endpoint. No
-    local model - just an HTTP call, so this never loads PyTorch."""
-    from openai import OpenAI
+    local model - just an HTTP call, so this never loads PyTorch.
+
+    The free tier caps embedding calls at ~100 requests/minute, so this
+    batches aggressively (fewer, larger requests) and retries on 429 with
+    the delay Google's error response suggests (it tells you exactly how
+    long to wait), rather than the openai SDK's default short backoff.
+    """
+    import re as _re
+
+    from openai import OpenAI, RateLimitError
 
     client = OpenAI(api_key=settings.openai_api_key, base_url=settings.openai_base_url)
     vectors: list[list[float]] = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i : i + batch_size]
-        resp = client.embeddings.create(model=settings.remote_embedding_model, input=batch)
-        vectors.extend(d.embedding for d in resp.data)
+        for attempt in range(max_retries):
+            try:
+                resp = client.embeddings.create(model=settings.remote_embedding_model, input=batch)
+                vectors.extend(d.embedding for d in resp.data)
+                break
+            except RateLimitError as exc:
+                match = _re.search(r"retry in ([\d.]+)s", str(exc))
+                delay = float(match.group(1)) + 2 if match else 20.0
+                logger.warning(
+                    "Embedding rate-limited (batch %d/%d, attempt %d/%d) - waiting %.0fs",
+                    i // batch_size + 1, -(-len(texts) // batch_size), attempt + 1, max_retries, delay,
+                )
+                time.sleep(delay)
+        else:
+            raise RuntimeError(f"Gave up embedding batch after {max_retries} rate-limit retries")
         if i + batch_size < len(texts):
-            time.sleep(0.2)  # be gentle with the free-tier rate limit
+            time.sleep(1.0)  # stay well under the free-tier requests/minute cap
     return np.array(vectors, dtype="float32")
 
 
